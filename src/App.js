@@ -6,7 +6,6 @@ import AppDrawer from './components/navigation/AppDrawer';
 import AppDrawerStore from './components/navigation/AppDrawerStore';
 import AppDrawerItem from './components/navigation/AppDrawerItem';
 import injectTapEventPlugin from 'react-tap-event-plugin';
-import './App.css';
 
 injectTapEventPlugin();
 

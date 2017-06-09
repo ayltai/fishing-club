@@ -25,7 +25,7 @@ it('renders correctly', () => {
     const div = document.createElement('div');
     ReactDOM.render(
         <MuiThemeProvider muiTheme={getMuiTheme(lightBaseTheme)}>
-            <AppDrawer store={createStore()}/>
+            <AppDrawer store={createStore()} />
         </MuiThemeProvider>,
         div);
 
