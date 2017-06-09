@@ -1,0 +1,63 @@
+{
+    "name"                 : "fishing-club",
+    "version"              : "1.0.0",
+    "description"          : "Fishing Club",
+    "author"               : "Alan Tai",
+    "license"              : "Apache-2.0",
+    "private"              : true,
+    "homepage"             : "https://github.com/ayltai/fishing-club",
+    "repository"           : {
+        "type" : "git",
+        "url"  : "git+ssh://git@github.com/ayltai/fishing-club.git"
+    },
+    "bugs"                 : {
+        "url" : "https://github.com/ayltai/fishing-club/issues"
+    },
+    "keywords"             : [
+        "fish",
+        "fishing"
+    ],
+    "dependencies"         : {
+        "material-ui"      : "^0.18.3",
+        "mobx"             : "^3.1.13",
+        "mobx-react"       : "^4.2.1",
+        "prop-types"       : "^15.5.10",
+        "pubsub-js"        : "^1.5.7",
+        "randomstring"     : "^1.1.5",
+        "react"            : "^15.5.4",
+        "react-dom"        : "^15.5.4",
+        "react-router-dom" : "^4.1.1",
+        "react-split-pane" : "^0.1.63",
+        "rx"               : "^4.1.0"
+    },
+    "devDependencies"      : {
+        "enzyme"                  : "^2.8.2",
+        "flow-bin"                : "^0.47.0",
+        "jest-serializer-html"    : "^4.0.0",
+        "react-addons-test-utils" : "^15.5.1",
+        "react-scripts"           : "^1.0.7",
+        "react-tap-event-plugin"  : "^2.0.1",
+        "simulant"                : "^0.2.2",
+        "stylelint"               : "^7.11.0"
+    },
+    "optionalDependencies" : {
+        "fsevents" : "*"
+    },
+    "scripts"              : {
+        "start"     : "react-scripts start",
+        "build"     : "react-scripts build",
+        "check"     : "flow check",
+        "check:all" : "npm run lint && npm run check && npm run stylelint",
+        "stylelint" : "stylelint ./src/**/*.css",
+        "test"      : "react-scripts test --env=jsdom",
+        "eject"     : "react-scripts eject"
+    },
+    "jest"                 : {
+        "snapshotSerializers" : [
+            "jest-serializer-html"
+        ]
+    },
+    "engines"              : {
+        "node" : ">=6.0.0"
+    }
+}
