@@ -12,7 +12,8 @@ import AppDrawerStore from './AppDrawerStore';
 import PubSub from 'pubsub-js';
 import './AppDrawer.css';
 
-const AppDrawer = observer(class AppDrawer extends React.Component {
+@observer
+class AppDrawer extends React.Component {
     static propTypes : Object;
 
     props : {
@@ -46,7 +47,7 @@ const AppDrawer = observer(class AppDrawer extends React.Component {
             </Drawer>
         );
     }
-});
+}
 
 AppDrawer.propTypes = {
     store : PropTypes.instanceOf(AppDrawerStore)
