@@ -11,5 +11,5 @@ const server = app.listen(DEFAULT_PORT, () => {
     const host = server.address().address;
     const port = server.address().port;
 
-    console.info('App listening at https://${host}:${port}');
+    console.info('App listening at https://' + host + ':' + port);
 });
