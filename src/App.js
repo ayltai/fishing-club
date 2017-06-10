@@ -12,9 +12,17 @@ injectTapEventPlugin();
 const createAppDrawerStore = () : AppDrawerStore => {
     const store : AppDrawerStore = new AppDrawerStore(true);
 
-    store.items.push(new AppDrawerItem('Home', 'home'));
-    store.items.push(new AppDrawerItem('Location', 'map-marker'));
-    store.items.push(new AppDrawerItem('Transportation', 'bus'));
+    store.items.push(new AppDrawerItem('Home', 'icofont icofont-home'));
+    store.items.push(new AppDrawerItem('-'));
+    store.items.push(new AppDrawerItem('Yung Shue O Raft', 'icofont icofont-ui-map'));
+    store.items.push(new AppDrawerItem('Meeting point', 'icofont icofont-social-google-map'));
+    store.items.push(new AppDrawerItem('Getting there', 'icofont icofont-bus'));
+    store.items.push(new AppDrawerItem('-'));
+    store.items.push(new AppDrawerItem('Barbecue', 'icofont icofont-bbq'));
+    store.items.push(new AppDrawerItem('Fishing', 'icofont icofont-animal-fish'));
+    store.items.push(new AppDrawerItem('Star beach', 'icofont icofont-star'));
+    store.items.push(new AppDrawerItem('-'));
+    store.items.push(new AppDrawerItem('FAQ', 'icofont icofont-question-circle'));
 
     store.selected = 'Home';
 
