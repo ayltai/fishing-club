@@ -27,7 +27,7 @@ class AppDrawer extends React.Component {
                 containerClassName="drawer">
                 <Menu value={this.props.store.selected}>
                     {this.props.store.items.map((item : AppDrawerItem) : any => {
-                        const icon : any = item.icon ? <FontIcon className={'fa fa-fw fa-' + item.icon} /> : null;
+                        const icon : any = item.icon ? <FontIcon className={item.icon} /> : null;
 
                         return (
                             <MenuItem
