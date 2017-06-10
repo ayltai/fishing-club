@@ -1,0 +1,17 @@
+{
+    "presets" : [
+        "es2015",
+        "react"
+    ],
+    "plugins" : [
+        [
+            "lodash-modularize",
+            {
+                "lodashVersion" : "4.17.4"
+            }
+        ],
+        "babel-plugin-transform-decorators-legacy",
+        "babel-plugin-transform-react-constant-elements",
+        "babel-plugin-transform-react-inline-elements"
+    ]
+}
