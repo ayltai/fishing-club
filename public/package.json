@@ -1,0 +1,29 @@
+{
+    "name"         : "fishing-club",
+    "version"      : "1.0.0",
+    "description"  : "Fishing Club",
+    "author"       : "Alan Tai",
+    "license"      : "Apache-2.0",
+    "private"      : true,
+    "homepage"     : "https://fishing-club.appspot.com/",
+    "repository"   : {
+        "type" : "git",
+        "url"  : "git+ssh://git@github.com/ayltai/fishing-club.git"
+    },
+    "bugs"         : {
+        "url" : "https://github.com/ayltai/fishing-club/issues"
+    },
+    "keywords"     : [
+        "fish",
+        "fishing"
+    ],
+    "dependencies" : {
+        "express" : "^4.15.3"
+    },
+    "scripts"      : {
+        "start" : "node ./start.js"
+    },
+    "engines"      : {
+        "node" : ">=6.0.0"
+    }
+}

@@ -5,7 +5,7 @@
     "author"               : "Alan Tai",
     "license"              : "Apache-2.0",
     "private"              : true,
-    "homepage"             : "http://fishing-club.appspot.com/",
+    "homepage"             : "https://fishing-club.appspot.com/",
     "repository"           : {
         "type" : "git",
         "url"  : "git+ssh://git@github.com/ayltai/fishing-club.git"

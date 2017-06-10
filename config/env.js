@@ -9,13 +9,11 @@ delete require.cache[require.resolve('./paths')];
 
 const NODE_ENV = process.env.NODE_ENV;
 if (!NODE_ENV) {
-    throw new Error(
-        'The NODE_ENV environment variable is required but was not specified.'
-    );
+    throw new Error('The NODE_ENV environment variable is required but was not specified.');
 }
 
 // https://github.com/bkeepers/dotenv#what-other-env-files-can-i-use
-var dotenvFiles = [
+const dotenvFiles = [
     `${paths.dotenv}.${NODE_ENV}.local`,
     `${paths.dotenv}.${NODE_ENV}`,
     // Don't include `.env.local` for `test` environment
@@ -47,6 +45,7 @@ dotenvFiles.forEach(dotenvFile => {
 // https://github.com/facebookincubator/create-react-app/issues/1023#issuecomment-265344421
 // We also resolve them to make sure all tools using them work consistently.
 const appDirectory = fs.realpathSync(process.cwd());
+
 process.env.NODE_PATH = (process.env.NODE_PATH || '')
     .split(path.delimiter)
     .filter(folder => folder && !path.isAbsolute(folder))
@@ -63,6 +62,7 @@ function getClientEnvironment(publicUrl) {
         .reduce(
             (env, key) => {
                 env[key] = process.env[key];
+
                 return env;
             },
             {
