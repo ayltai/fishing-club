@@ -17,18 +17,18 @@ exports[`renders correctly 1`] = `
         <div>
           <span role="menuitem"
                 tabindex="0"
-                style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; z-index: 1; color: rgb(255, 64, 129); line-height: 48px; min-height: 48px; white-space: nowrap; background: none;"
+                style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; z-index: 1; color: rgba(0, 0, 0, 0.87); line-height: 48px; min-height: 48px; white-space: nowrap; background: none;"
           >
             <div>
               <div style="margin-left: 0px; padding: 0px 16px 0px 72px; position: relative;">
-                <!-- react-text: 10 -->
-                Home
-                <!-- /react-text -->
-                <span class="fa fa-fw fa-home"
+                <span class="home"
                       color="#757575"
                       style="color: rgb(117, 117, 117); position: absolute; font-size: 24px; display: block; height: 24px; width: 24px; top: 0px; margin: 12px; left: 4px;"
                 >
                 </span>
+                <div>
+                  Home
+                </div>
               </div>
             </div>
           </span>
@@ -40,14 +40,14 @@ exports[`renders correctly 1`] = `
           >
             <div>
               <div style="margin-left: 0px; padding: 0px 16px 0px 72px; position: relative;">
-                <!-- react-text: 16 -->
-                Location
-                <!-- /react-text -->
-                <span class="fa fa-fw fa-map-marker"
+                <span class="map-marker"
                       color="#757575"
                       style="color: rgb(117, 117, 117); position: absolute; font-size: 24px; display: block; height: 24px; width: 24px; top: 0px; margin: 12px; left: 4px;"
                 >
                 </span>
+                <div>
+                  Location
+                </div>
               </div>
             </div>
           </span>
@@ -59,14 +59,14 @@ exports[`renders correctly 1`] = `
           >
             <div>
               <div style="margin-left: 0px; padding: 0px 16px 0px 72px; position: relative;">
-                <!-- react-text: 22 -->
-                Transportation
-                <!-- /react-text -->
-                <span class="fa fa-fw fa-bus"
+                <span class="bus"
                       color="#757575"
                       style="color: rgb(117, 117, 117); position: absolute; font-size: 24px; display: block; height: 24px; width: 24px; top: 0px; margin: 12px; left: 4px;"
                 >
                 </span>
+                <div>
+                  Transportation
+                </div>
               </div>
             </div>
           </span>

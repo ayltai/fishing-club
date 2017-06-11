@@ -37,18 +37,38 @@ exports[`renders correctly 1`] = `
           <div>
             <span role="menuitem"
                   tabindex="0"
-                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; z-index: 1; color: rgb(255, 64, 129); line-height: 48px; min-height: 48px; white-space: nowrap; background: none;"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; z-index: 1; color: rgba(0, 0, 0, 0.87); line-height: 48px; min-height: 48px; white-space: nowrap; background: none;"
             >
               <div>
                 <div style="margin-left: 0px; padding: 0px 16px 0px 72px; position: relative;">
-                  <!-- react-text: 17 -->
-                  Home
-                  <!-- /react-text -->
-                  <span class="fa fa-fw fa-home"
+                  <span class="icofont icofont-home"
                         color="#757575"
                         style="color: rgb(117, 117, 117); position: absolute; font-size: 24px; display: block; height: 24px; width: 24px; top: 0px; margin: 12px; left: 4px;"
                   >
                   </span>
+                  <div>
+                    Home
+                  </div>
+                </div>
+              </div>
+            </span>
+          </div>
+          <hr style="margin: 7px 0px 8px 0px; height: 1px; background-color: rgb(224, 224, 224);">
+          <div>
+            <span role="menuitem"
+                  tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; z-index: 1; color: rgba(0, 0, 0, 0.87); line-height: 48px; min-height: 48px; white-space: nowrap; background: none;"
+            >
+              <div>
+                <div style="margin-left: 0px; padding: 0px 16px 0px 72px; position: relative;">
+                  <span class="icofont icofont-ui-map"
+                        color="#757575"
+                        style="color: rgb(117, 117, 117); position: absolute; font-size: 24px; display: block; height: 24px; width: 24px; top: 0px; margin: 12px; left: 4px;"
+                  >
+                  </span>
+                  <div>
+                    Yung Shue O raft
+                  </div>
                 </div>
               </div>
             </span>
@@ -60,14 +80,14 @@ exports[`renders correctly 1`] = `
             >
               <div>
                 <div style="margin-left: 0px; padding: 0px 16px 0px 72px; position: relative;">
-                  <!-- react-text: 23 -->
-                  Location
-                  <!-- /react-text -->
-                  <span class="fa fa-fw fa-map-marker"
+                  <span class="icofont icofont-social-google-map"
                         color="#757575"
                         style="color: rgb(117, 117, 117); position: absolute; font-size: 24px; display: block; height: 24px; width: 24px; top: 0px; margin: 12px; left: 4px;"
                   >
                   </span>
+                  <div>
+                    Meeting point
+                  </div>
                 </div>
               </div>
             </span>
@@ -79,14 +99,92 @@ exports[`renders correctly 1`] = `
             >
               <div>
                 <div style="margin-left: 0px; padding: 0px 16px 0px 72px; position: relative;">
-                  <!-- react-text: 29 -->
-                  Transportation
-                  <!-- /react-text -->
-                  <span class="fa fa-fw fa-bus"
+                  <span class="icofont icofont-bus"
                         color="#757575"
                         style="color: rgb(117, 117, 117); position: absolute; font-size: 24px; display: block; height: 24px; width: 24px; top: 0px; margin: 12px; left: 4px;"
                   >
                   </span>
+                  <div>
+                    Getting there
+                  </div>
+                </div>
+              </div>
+            </span>
+          </div>
+          <hr style="margin: 7px 0px 8px 0px; height: 1px; background-color: rgb(224, 224, 224);">
+          <div>
+            <span role="menuitem"
+                  tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; z-index: 1; color: rgba(0, 0, 0, 0.87); line-height: 48px; min-height: 48px; white-space: nowrap; background: none;"
+            >
+              <div>
+                <div style="margin-left: 0px; padding: 0px 16px 0px 72px; position: relative;">
+                  <span class="icofont icofont-bbq"
+                        color="#757575"
+                        style="color: rgb(117, 117, 117); position: absolute; font-size: 24px; display: block; height: 24px; width: 24px; top: 0px; margin: 12px; left: 4px;"
+                  >
+                  </span>
+                  <div>
+                    Barbecue
+                  </div>
+                </div>
+              </div>
+            </span>
+          </div>
+          <div>
+            <span role="menuitem"
+                  tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; z-index: 1; color: rgba(0, 0, 0, 0.87); line-height: 48px; min-height: 48px; white-space: nowrap; background: none;"
+            >
+              <div>
+                <div style="margin-left: 0px; padding: 0px 16px 0px 72px; position: relative;">
+                  <span class="icofont icofont-animal-fish"
+                        color="#757575"
+                        style="color: rgb(117, 117, 117); position: absolute; font-size: 24px; display: block; height: 24px; width: 24px; top: 0px; margin: 12px; left: 4px;"
+                  >
+                  </span>
+                  <div>
+                    Fishing
+                  </div>
+                </div>
+              </div>
+            </span>
+          </div>
+          <div>
+            <span role="menuitem"
+                  tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; z-index: 1; color: rgba(0, 0, 0, 0.87); line-height: 48px; min-height: 48px; white-space: nowrap; background: none;"
+            >
+              <div>
+                <div style="margin-left: 0px; padding: 0px 16px 0px 72px; position: relative;">
+                  <span class="icofont icofont-star"
+                        color="#757575"
+                        style="color: rgb(117, 117, 117); position: absolute; font-size: 24px; display: block; height: 24px; width: 24px; top: 0px; margin: 12px; left: 4px;"
+                  >
+                  </span>
+                  <div>
+                    Star beach
+                  </div>
+                </div>
+              </div>
+            </span>
+          </div>
+          <hr style="margin: 7px 0px 8px 0px; height: 1px; background-color: rgb(224, 224, 224);">
+          <div>
+            <span role="menuitem"
+                  tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; z-index: 1; color: rgba(0, 0, 0, 0.87); line-height: 48px; min-height: 48px; white-space: nowrap; background: none;"
+            >
+              <div>
+                <div style="margin-left: 0px; padding: 0px 16px 0px 72px; position: relative;">
+                  <span class="icofont icofont-question-circle"
+                        color="#757575"
+                        style="color: rgb(117, 117, 117); position: absolute; font-size: 24px; display: block; height: 24px; width: 24px; top: 0px; margin: 12px; left: 4px;"
+                  >
+                  </span>
+                  <div>
+                    FAQ
+                  </div>
                 </div>
               </div>
             </span>
@@ -94,6 +192,23 @@ exports[`renders correctly 1`] = `
         </div>
       </div>
     </div>
+  </div>
+  <div class="mainContent"
+       style="width: 800px;"
+  >
+    <div>
+      Home
+    </div>
+    <!-- react-empty: 66 -->
+    <!-- react-empty: 67 -->
+    <!-- react-empty: 68 -->
+    <!-- react-empty: 69 -->
+    <!-- react-empty: 70 -->
+    <!-- react-empty: 71 -->
+    <!-- react-empty: 72 -->
+    <!-- react-empty: 73 -->
+    <!-- react-empty: 74 -->
+    <!-- react-empty: 75 -->
   </div>
 </div>
 

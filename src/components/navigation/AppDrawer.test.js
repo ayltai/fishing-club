@@ -6,17 +6,17 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import lightBaseTheme from 'material-ui/styles/baseThemes/lightBaseTheme';
 import AppDrawer from './AppDrawer';
-import AppDrawerItem from './AppDrawerItem';
 import AppDrawerStore from './AppDrawerStore';
+import NavItem from './NavItem';
 
 const createStore : AppDrawerStore = () => {
     const store : AppDrawerStore = new AppDrawerStore(true);
 
-    store.items.push(new AppDrawerItem('Home', 'home'));
-    store.items.push(new AppDrawerItem('Location', 'map-marker'));
-    store.items.push(new AppDrawerItem('Transportation', 'bus'));
+    store.items.push(new NavItem('/', 'Home', 'home'));
+    store.items.push(new NavItem('/location', 'Location', 'map-marker'));
+    store.items.push(new NavItem('/transportation', 'Transportation', 'bus'));
 
-    store.selected = 'Home';
+    store.selected = '/';
 
     return store;
 };
