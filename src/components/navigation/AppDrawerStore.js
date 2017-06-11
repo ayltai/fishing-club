@@ -1,11 +1,15 @@
 // @flow
+'use strict';
+
 import { extendObservable } from 'mobx';
-import AppDrawerItem from './AppDrawerItem';
+import NavItem from './NavItem';
+import Rx from 'rx-lite';
 
 export default class AppDrawerStore {
-    isOpened : boolean;
-    selected : string;
-    items    : AppDrawerItem[];
+    isOpened         : boolean;
+    selected         : string;
+    items            : NavItem[];
+    selectionChanges : Rx.Subject;
 
     constructor(isOpened : boolean = true) {
         extendObservable(this, {
@@ -13,5 +17,7 @@ export default class AppDrawerStore {
             selected : '',
             items    : []
         });
+
+        this.selectionChanges = new Rx.Subject();
     }
 }
