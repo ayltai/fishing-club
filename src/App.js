@@ -16,7 +16,7 @@ import GettingThere from './pages/places/GettingThere';
 import Barbecue from './pages/activities/Barbecue';
 import Fishing from './pages/activities/Fishing';
 import StarBeach from './pages/activities/StarBeach';
-import Faq from './pages/Faq';
+import Faq from './pages/others/Faq';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import './App.css';
 
