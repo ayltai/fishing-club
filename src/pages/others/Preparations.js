@@ -30,6 +30,9 @@ const Preparations = () : any => {
                     name="(Optional) Suncream"
                     description="Just in case it will be shiny." />
                 <PreparationItem
+                    name="(Optional) Mosquito Repellent"
+                    description="You will walk through trees to go to the pier. There may be mosquitoes." />
+                <PreparationItem
                     name="(Optional) Snacks"
                     description="Some snacks will be prepared and shared but you are welcome to bring more." />
                 <PreparationItem
