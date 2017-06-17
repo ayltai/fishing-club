@@ -39,8 +39,8 @@ const FaqItem = (props : Object) => {
 };
 
 FaqItem.propTypes = {
-    question : PropTypes.string.isRequired,
-    answer   : PropTypes.string.isRequired
+    question : PropTypes.oneOfType([ PropTypes.string.isRequired, PropTypes.element.isRequired ]),
+    answer   : PropTypes.oneOfType([ PropTypes.string.isRequired, PropTypes.element.isRequired ])
 };
 
 export default muiThemeable()(FaqItem);

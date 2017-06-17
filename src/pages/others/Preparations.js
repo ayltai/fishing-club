@@ -13,7 +13,7 @@ const Preparations = () : any => {
             <List>
                 <PreparationItem
                     name="Waterproof shorts"
-                    description="You will need to walk through shallow water when you visit Star beach." />
+                    description="You will need to walk through shallow water when you visit Star beach. Your may wear waterproof shorts, or bring a spare pair of shorts." />
                 <PreparationItem
                     name="(Optional) Waterproof shoes"
                     description="You will need to walk through shallow water when you visit Star beach. You may wear waterproof shoes, or otherwise take them off." />

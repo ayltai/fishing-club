@@ -18,8 +18,8 @@ const PreparationItem = (props : Object) => {
 };
 
 PreparationItem.propTypes = {
-    name        : PropTypes.string.isRequired,
-    description : PropTypes.string
+    name        : PropTypes.oneOfType([ PropTypes.string.isRequired, PropTypes.element.isRequired ]),
+    description : PropTypes.oneOfType([ PropTypes.string, PropTypes.element ])
 };
 
 export default muiThemeable()(PreparationItem);
