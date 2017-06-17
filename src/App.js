@@ -81,6 +81,10 @@ export default class App extends React.Component {
                 <div>
                     <AppBar
                         title="Fishing Club"
+                        style={{
+                            position : 'fixed',
+                            top      : 0
+                        }}
                         onLeftIconButtonTouchTap={() : void => {
                             this._appDrawer.isOpened = !this._appDrawer.isOpened;
 
