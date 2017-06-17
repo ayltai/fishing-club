@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import './index.css';
-import './css/icofont.css';
+import './css/icofont.min.css';
 
 ReactDOM.render(
     <BrowserRouter>

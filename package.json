@@ -90,7 +90,7 @@
         "check": "flow check",
         "check:all": "npm run lint && npm run check && npm run stylelint",
         "lint": "eslint ./src",
-        "stylelint": "stylelint ./**/*.css",
+        "stylelint": "stylelint ./src/*.css && stylelint ./src/**/*.css",
         "test": "node scripts/test.js --env=jsdom"
     },
     "babel": {
