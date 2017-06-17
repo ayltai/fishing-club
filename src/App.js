@@ -5,6 +5,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Route } from 'react-router-dom';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import getMuiTheme from 'material-ui/styles/getMuiTheme';
+import { blue500 } from 'material-ui/styles/colors';
 import AppBar from 'material-ui/AppBar';
 import AppDrawer from './components/navigation/AppDrawer';
 import AppDrawerStore from './components/navigation/AppDrawerStore';
@@ -22,6 +24,12 @@ import injectTapEventPlugin from 'react-tap-event-plugin';
 import './App.css';
 
 injectTapEventPlugin();
+
+const theme = getMuiTheme({
+    palette : {
+        primary1Color : blue500
+    }
+});
 
 const createNavItems = () : NavItem[] => {
     const items = [];
@@ -77,7 +85,7 @@ export default class App extends React.Component {
 
     render() : any {
         return (
-            <MuiThemeProvider>
+            <MuiThemeProvider muiTheme={theme}>
                 <div>
                     <AppBar
                         title="Fishing Club"
@@ -89,8 +97,8 @@ export default class App extends React.Component {
                             this._appDrawer.isOpened = !this._appDrawer.isOpened;
 
                             this.setState({
-                                drawerWidth  : 0,
-                                contentWidth : 960
+                                drawerWidth  : this._appDrawer.isOpened ? 230 : 0,
+                                contentWidth : this._appDrawer.isOpened ? 800 : 960
                             });
                         }} />
                     <AppDrawer store={this._appDrawer} />
