@@ -16,6 +16,7 @@ import GettingThere from './pages/places/GettingThere';
 import Barbecue from './pages/activities/Barbecue';
 import Fishing from './pages/activities/Fishing';
 import StarBeach from './pages/activities/StarBeach';
+import Preparations from './pages/others/Preparations';
 import Faq from './pages/others/Faq';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import './App.css';
@@ -35,6 +36,7 @@ const createNavItems = () : NavItem[] => {
     items.push(new NavItem('/activities/fishing', 'Fishing', 'icofont icofont-animal-fish', <Fishing />));
     items.push(new NavItem('/activities/star-beach', 'Star beach', 'icofont icofont-star', <StarBeach />));
     items.push(new NavItem('-'));
+    items.push(new NavItem('/others/preparations', 'Preparations', 'icofont icofont-listine-dots', <Preparations />));
     items.push(new NavItem('/others/faq', 'FAQ', 'icofont icofont-question-circle', <Faq />));
 
     return items;
