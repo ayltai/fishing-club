@@ -60,24 +60,23 @@ module.exports = {
     entry   : [require.resolve('./polyfills'), paths.appIndexJs],
     output  : {
         // The build folder.
-        path                         : paths.appBuild,
+        path                          : paths.appBuild,
         // Generated JS file names (with nested folders).
         // There will be one main bundle, and one file per asynchronous chunk.
         // We don't currently advertise code splitting but Webpack supports it.
-        filename                     : 'static/js/[name].[chunkhash:8].js',
-        chunkFilename                : 'static/js/[name].[chunkhash:8].chunk.js',
+        filename                      : 'static/js/[name].[chunkhash:8].js',
+        chunkFilename                 : 'static/js/[name].[chunkhash:8].chunk.js',
         // We inferred the "public path" (such as / or /my-project) from homepage.
-        publicPath                   : publicPath,
+        publicPath                    : publicPath,
         // Point sourcemap entries to original disk location
-        devtoolModuleFilenameTemplate: info =>
-            path.relative(paths.appSrc, info.absoluteResourcePath)
+        devtoolModuleFilenameTemplate : info => path.relative(paths.appSrc, info.absoluteResourcePath)
     },
     resolve : {
         // This allows you to set a fallback for where Webpack should look for modules.
         // We placed these paths second because we want `node_modules` to "win"
         // if there are any conflicts. This matches Node resolution mechanism.
         // https://github.com/facebookincubator/create-react-app/issues/253
-        modules    : ['node_modules', paths.appNodeModules].concat(
+        modules    : [ 'node_modules', paths.appNodeModules ].concat(
             // It is guaranteed to exist because we tweak it in `env.js`
             process.env.NODE_PATH.split(path.delimiter).filter(Boolean)
         ),
@@ -85,12 +84,12 @@ module.exports = {
         // We also include JSX as a common component filename extension to support
         // some tools, although we do not recommend using it, see:
         // https://github.com/facebookincubator/create-react-app/issues/290
-        extensions : ['.js', '.json', '.jsx'],
+        extensions : [ '.js', '.json', '.jsx' ],
         alias      : {
 
             // Support React Native Web
             // https://www.smashingmagazine.com/2016/08/a-glimpse-into-the-future-with-react-native-for-web/
-            'react-native': 'react-native-web'
+            'react-native' : 'react-native-web'
         },
         plugins    : [
             // Prevents users from importing files from outside of src/ (or node_modules/).
@@ -116,8 +115,7 @@ module.exports = {
                 use     : [
                     {
                         options : {
-                            formatter: eslintFormatter
-
+                            formatter : eslintFormatter
                         },
                         loader  : require.resolve('eslint-loader')
                     }
@@ -151,7 +149,7 @@ module.exports = {
             // "url" loader works just like "file" loader but it also embeds
             // assets smaller than specified size as data URLs to avoid requests.
             {
-                test    : [/\.bmp$/, /\.gif$/, /\.jpe?g$/, /\.png$/],
+                test    : [ /\.bmp$/, /\.gif$/, /\.jpe?g$/, /\.png$/ ],
                 loader  : require.resolve('url-loader'),
                 options : {
                     limit : 10000,
@@ -296,9 +294,9 @@ module.exports = {
             navigateFallback              : publicUrl + '/index.html',
             // Ignores URLs starting from /__ (useful for Firebase):
             // https://github.com/facebookincubator/create-react-app/issues/2237#issuecomment-302693219
-            navigateFallbackWhitelist     : [/^(?!\/__).*/],
+            navigateFallbackWhitelist     : [ /^(?!\/__).*/ ],
             // Don't precache sourcemaps (they're large) and build asset manifest:
-            staticFileGlobsIgnorePatterns : [/\.map$/, /asset-manifest\.json$/],
+            staticFileGlobsIgnorePatterns : [ /\.map$/, /asset-manifest\.json$/ ],
             // Work around Windows path issue in SWPrecacheWebpackPlugin:
             // https://github.com/facebookincubator/create-react-app/issues/2235
             stripPrefix                   : paths.appBuild.replace(/\\/g, '/') + '/'

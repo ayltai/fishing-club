@@ -30,21 +30,22 @@ const {
     choosePort,
     createCompiler,
     prepareProxy,
-    prepareUrls,
+    prepareUrls
 } = require('react-dev-utils/WebpackDevServerUtils');
 
 // Warn and crash if required files are missing
 if (!checkRequiredFiles([paths.appHtml, paths.appIndexJs])) process.exit(1);
 
 // Tools like Cloud9 rely on this.
-const DEFAULT_PORT = parseInt(process.env.PORT, 10) || 3000;
-const HOST         = process.env.HOST || '0.0.0.0';
+const PREDEFINED_PORT = 8080;
+const DEFAULT_PORT    = parseInt(process.env.PORT, 10) || PREDEFINED_PORT;
+const HOST            = process.env.HOST || '0.0.0.0';
 
 // We attempt to use the default port but if it is busy, we offer the user to
 // run on a different port. `detect()` Promise resolves to the next free port.
 choosePort(HOST, DEFAULT_PORT)
     .then(port => {
-        if (port == null) {
+        if (port === null) {
             // We have not found a port.
             return;
         }
@@ -66,7 +67,7 @@ choosePort(HOST, DEFAULT_PORT)
 
         // Launch WebpackDevServer.
         devServer.listen(port, HOST, err => {
-            if (err) return console.log(err);
+            if (err) console.log(err);
             if (isInteractive) clearConsole();
 
             console.log(chalk.cyan('Starting the development server...\n'));

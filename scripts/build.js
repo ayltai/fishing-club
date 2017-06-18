@@ -29,7 +29,7 @@ const printFileSizesAfterBuild    = FileSizeReporter.printFileSizesAfterBuild;
 const useYarn                     = fs.existsSync(paths.yarnLockFile);
 
 // Warn and crash if required files are missing
-if (!checkRequiredFiles([paths.appHtml, paths.appIndexJs])) process.exit(1);
+if (!checkRequiredFiles([ paths.appHtml, paths.appIndexJs ])) process.exit(1);
 
 // First, read the current file sizes in build directory.
 // This lets us display how much they changed later.
@@ -101,6 +101,6 @@ function build(previousFileSizes) {
 function copyPublicFolder() {
     fs.copySync(paths.appPublic, paths.appBuild, {
         dereference : true,
-        filter      : file => file !== paths.appHtml,
+        filter      : file => file !== paths.appHtml
     });
 }

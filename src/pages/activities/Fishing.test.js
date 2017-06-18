@@ -11,7 +11,7 @@ it('renders correctly', () => {
     ReactDOM.render(
         <BrowserRouter>
             <MuiThemeProvider>
-                <v />
+                <Fishing />
             </MuiThemeProvider>
         </BrowserRouter>,
         div);

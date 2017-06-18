@@ -77,7 +77,7 @@ module.exports = {
         // We placed these paths second because we want `node_modules` to "win"
         // if there are any conflicts. This matches Node resolution mechanism.
         // https://github.com/facebookincubator/create-react-app/issues/253
-        modules    : ['node_modules', paths.appNodeModules].concat(
+        modules    : [ 'node_modules', paths.appNodeModules ].concat(
             // It is guaranteed to exist because we tweak it in `env.js`
             process.env.NODE_PATH.split(path.delimiter).filter(Boolean)
         ),
@@ -85,12 +85,12 @@ module.exports = {
         // We also include JSX as a common component filename extension to support
         // some tools, although we do not recommend using it, see:
         // https://github.com/facebookincubator/create-react-app/issues/290
-        extensions : ['.js', '.json', '.jsx'],
+        extensions : [ '.js', '.json', '.jsx' ],
         alias      : {
 
             // Support React Native Web
             // https://www.smashingmagazine.com/2016/08/a-glimpse-into-the-future-with-react-native-for-web/
-            'react-native': 'react-native-web'
+            'react-native' : 'react-native-web'
         },
         plugins    : [
             // Prevents users from importing files from outside of src/ (or node_modules/).
@@ -116,7 +116,7 @@ module.exports = {
                 use     : [
                     {
                         options : {
-                            formatter: eslintFormatter
+                            formatter : eslintFormatter
                         },
                         loader  : require.resolve('eslint-loader')
                     }
@@ -219,8 +219,8 @@ module.exports = {
         new InterpolateHtmlPlugin(env.raw),
         // Generates an `index.html` file with the <script> injected.
         new HtmlWebpackPlugin({
-            inject  : true,
-            template: paths.appHtml
+            inject   : true,
+            template : paths.appHtml
         }),
         // Makes some environment variables available to the JS code, for example:
         // if (process.env.NODE_ENV === 'development') { ... }. See `./env.js`.
