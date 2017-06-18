@@ -102,8 +102,14 @@
         "extends": "react-app"
     },
     "jest": {
+        "collectCoverage" : true,
         "collectCoverageFrom": [
+            "src/*.{js,jsx}",
             "src/**/*.{js,jsx}"
+        ],
+        "coveragePathIgnorePatterns" : [
+            "src/index.js",
+            "src/registerServiceWorker.js"
         ],
         "setupFiles": [
             "<rootDir>/config/polyfills.js"

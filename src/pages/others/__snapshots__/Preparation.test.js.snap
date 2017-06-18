@@ -1,0 +1,393 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+
+<div data-reactroot
+     style="color: rgba(0, 0, 0, 0.87); background-color: rgb(255, 255, 255); box-sizing: border-box; font-family: Roboto, sans-serif; box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12),
+         0 1px 4px rgba(0, 0, 0, 0.12); border-radius: 2px;"
+>
+  <div style="padding: 8px 0px 8px 0px;">
+    <div>
+      <label style="color: rgba(0, 0, 0, 0.87); display: block; font-size: 16px; line-height: 16px; position: relative; margin-left: 0px; padding: 16px 16px 16px 72px; cursor: pointer;">
+        <div style="cursor: pointer; position: absolute; overflow: visible; display: block; height: auto; width: 24px; top: 12px; left: 16px;">
+          <!-- react-empty: 6 -->
+          <input type="checkbox"
+                 style="position: absolute; cursor: inherit; pointer-events: all; opacity: 0; width: 100%; height: 100%; z-index: 2; left: 0px; box-sizing: border-box; padding: 0px; margin: 0px;"
+          >
+          <div style="display: flex; width: 100%; height: 100%;">
+            <div style="float: left; position: relative; display: block; width: 24px; margin-right: 16px; margin-left: 0px; height: 24px;">
+              <div>
+                <svg viewbox="0 0 24 24"
+                     style="display: inline-block; color: rgba(0, 0, 0, 0.87); fill: rgba(0, 0, 0, 0.87); height: 24px; width: 24px; position: absolute; opacity: 1;"
+                >
+                  <path d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z">
+                  </path>
+                </svg>
+                <svg viewbox="0 0 24 24"
+                     style="display: inline-block; color: rgba(0, 0, 0, 0.87); fill: #00bcd4; height: 24px; width: 24px; position: absolute; opacity: 0;"
+                >
+                  <path d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z">
+                  </path>
+                </svg>
+              </div>
+              <div>
+              </div>
+              <div style="position: absolute; overflow: hidden; height: 100%; width: 100%; top: 0px; left: 0px;">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          Waterproof shorts
+        </div>
+        <div style="font-size: 14px; line-height: 18px; height: 36px; margin: 4px 0px 0px 0px; color: rgba(0, 0, 0, 0.54); overflow: hidden; text-overflow: ellipsis; display: -webkit-box;">
+          You will need to walk through shallow water when you visit Star beach. Your may wear waterproof shorts, or bring a spare pair of shorts.
+        </div>
+      </label>
+    </div>
+    <div>
+      <label style="color: rgba(0, 0, 0, 0.87); display: block; font-size: 16px; line-height: 16px; position: relative; margin-left: 0px; padding: 16px 16px 16px 72px; cursor: pointer;">
+        <div style="cursor: pointer; position: absolute; overflow: visible; display: block; height: auto; width: 24px; top: 12px; left: 16px;">
+          <!-- react-empty: 22 -->
+          <input type="checkbox"
+                 style="position: absolute; cursor: inherit; pointer-events: all; opacity: 0; width: 100%; height: 100%; z-index: 2; left: 0px; box-sizing: border-box; padding: 0px; margin: 0px;"
+          >
+          <div style="display: flex; width: 100%; height: 100%;">
+            <div style="float: left; position: relative; display: block; width: 24px; margin-right: 16px; margin-left: 0px; height: 24px;">
+              <div>
+                <svg viewbox="0 0 24 24"
+                     style="display: inline-block; color: rgba(0, 0, 0, 0.87); fill: rgba(0, 0, 0, 0.87); height: 24px; width: 24px; position: absolute; opacity: 1;"
+                >
+                  <path d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z">
+                  </path>
+                </svg>
+                <svg viewbox="0 0 24 24"
+                     style="display: inline-block; color: rgba(0, 0, 0, 0.87); fill: #00bcd4; height: 24px; width: 24px; position: absolute; opacity: 0;"
+                >
+                  <path d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z">
+                  </path>
+                </svg>
+              </div>
+              <div>
+              </div>
+              <div style="position: absolute; overflow: hidden; height: 100%; width: 100%; top: 0px; left: 0px;">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          (Optional) Waterproof shoes
+        </div>
+        <div style="font-size: 14px; line-height: 18px; height: 36px; margin: 4px 0px 0px 0px; color: rgba(0, 0, 0, 0.54); overflow: hidden; text-overflow: ellipsis; display: -webkit-box;">
+          You will need to walk through shallow water when you visit Star beach. You may wear waterproof shoes, or otherwise take them off.
+        </div>
+      </label>
+    </div>
+    <div>
+      <label style="color: rgba(0, 0, 0, 0.87); display: block; font-size: 16px; line-height: 16px; position: relative; margin-left: 0px; padding: 16px 16px 16px 72px; cursor: pointer;">
+        <div style="cursor: pointer; position: absolute; overflow: visible; display: block; height: auto; width: 24px; top: 12px; left: 16px;">
+          <!-- react-empty: 38 -->
+          <input type="checkbox"
+                 style="position: absolute; cursor: inherit; pointer-events: all; opacity: 0; width: 100%; height: 100%; z-index: 2; left: 0px; box-sizing: border-box; padding: 0px; margin: 0px;"
+          >
+          <div style="display: flex; width: 100%; height: 100%;">
+            <div style="float: left; position: relative; display: block; width: 24px; margin-right: 16px; margin-left: 0px; height: 24px;">
+              <div>
+                <svg viewbox="0 0 24 24"
+                     style="display: inline-block; color: rgba(0, 0, 0, 0.87); fill: rgba(0, 0, 0, 0.87); height: 24px; width: 24px; position: absolute; opacity: 1;"
+                >
+                  <path d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z">
+                  </path>
+                </svg>
+                <svg viewbox="0 0 24 24"
+                     style="display: inline-block; color: rgba(0, 0, 0, 0.87); fill: #00bcd4; height: 24px; width: 24px; position: absolute; opacity: 0;"
+                >
+                  <path d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z">
+                  </path>
+                </svg>
+              </div>
+              <div>
+              </div>
+              <div style="position: absolute; overflow: hidden; height: 100%; width: 100%; top: 0px; left: 0px;">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          (Optional) Plastic bags
+        </div>
+        <div style="font-size: 14px; line-height: 18px; height: 36px; margin: 4px 0px 0px 0px; color: rgba(0, 0, 0, 0.54); overflow: hidden; text-overflow: ellipsis; display: -webkit-box;">
+          You will need to walk through shallow water when you visit Star beach. Plastic bags come in handy if you take off your shoes.
+        </div>
+      </label>
+    </div>
+    <div>
+      <label style="color: rgba(0, 0, 0, 0.87); display: block; font-size: 16px; line-height: 16px; position: relative; margin-left: 0px; padding: 16px 16px 16px 72px; cursor: pointer;">
+        <div style="cursor: pointer; position: absolute; overflow: visible; display: block; height: auto; width: 24px; top: 12px; left: 16px;">
+          <!-- react-empty: 54 -->
+          <input type="checkbox"
+                 style="position: absolute; cursor: inherit; pointer-events: all; opacity: 0; width: 100%; height: 100%; z-index: 2; left: 0px; box-sizing: border-box; padding: 0px; margin: 0px;"
+          >
+          <div style="display: flex; width: 100%; height: 100%;">
+            <div style="float: left; position: relative; display: block; width: 24px; margin-right: 16px; margin-left: 0px; height: 24px;">
+              <div>
+                <svg viewbox="0 0 24 24"
+                     style="display: inline-block; color: rgba(0, 0, 0, 0.87); fill: rgba(0, 0, 0, 0.87); height: 24px; width: 24px; position: absolute; opacity: 1;"
+                >
+                  <path d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z">
+                  </path>
+                </svg>
+                <svg viewbox="0 0 24 24"
+                     style="display: inline-block; color: rgba(0, 0, 0, 0.87); fill: #00bcd4; height: 24px; width: 24px; position: absolute; opacity: 0;"
+                >
+                  <path d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z">
+                  </path>
+                </svg>
+              </div>
+              <div>
+              </div>
+              <div style="position: absolute; overflow: hidden; height: 100%; width: 100%; top: 0px; left: 0px;">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          Cash
+        </div>
+        <div style="font-size: 14px; line-height: 18px; height: 36px; margin: 4px 0px 0px 0px; color: rgba(0, 0, 0, 0.54); overflow: hidden; text-overflow: ellipsis; display: -webkit-box;">
+          You can buy more drinks there.
+        </div>
+      </label>
+    </div>
+    <div>
+      <label style="color: rgba(0, 0, 0, 0.87); display: block; font-size: 16px; line-height: 16px; position: relative; margin-left: 0px; padding: 16px 16px 16px 72px; cursor: pointer;">
+        <div style="cursor: pointer; position: absolute; overflow: visible; display: block; height: auto; width: 24px; top: 12px; left: 16px;">
+          <!-- react-empty: 70 -->
+          <input type="checkbox"
+                 style="position: absolute; cursor: inherit; pointer-events: all; opacity: 0; width: 100%; height: 100%; z-index: 2; left: 0px; box-sizing: border-box; padding: 0px; margin: 0px;"
+          >
+          <div style="display: flex; width: 100%; height: 100%;">
+            <div style="float: left; position: relative; display: block; width: 24px; margin-right: 16px; margin-left: 0px; height: 24px;">
+              <div>
+                <svg viewbox="0 0 24 24"
+                     style="display: inline-block; color: rgba(0, 0, 0, 0.87); fill: rgba(0, 0, 0, 0.87); height: 24px; width: 24px; position: absolute; opacity: 1;"
+                >
+                  <path d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z">
+                  </path>
+                </svg>
+                <svg viewbox="0 0 24 24"
+                     style="display: inline-block; color: rgba(0, 0, 0, 0.87); fill: #00bcd4; height: 24px; width: 24px; position: absolute; opacity: 0;"
+                >
+                  <path d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z">
+                  </path>
+                </svg>
+              </div>
+              <div>
+              </div>
+              <div style="position: absolute; overflow: hidden; height: 100%; width: 100%; top: 0px; left: 0px;">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          (Optional) Sunglasses
+        </div>
+        <div style="font-size: 14px; line-height: 18px; height: 36px; margin: 4px 0px 0px 0px; color: rgba(0, 0, 0, 0.54); overflow: hidden; text-overflow: ellipsis; display: -webkit-box;">
+          Just in case it will be shiny.
+        </div>
+      </label>
+    </div>
+    <div>
+      <label style="color: rgba(0, 0, 0, 0.87); display: block; font-size: 16px; line-height: 16px; position: relative; margin-left: 0px; padding: 16px 16px 16px 72px; cursor: pointer;">
+        <div style="cursor: pointer; position: absolute; overflow: visible; display: block; height: auto; width: 24px; top: 12px; left: 16px;">
+          <!-- react-empty: 86 -->
+          <input type="checkbox"
+                 style="position: absolute; cursor: inherit; pointer-events: all; opacity: 0; width: 100%; height: 100%; z-index: 2; left: 0px; box-sizing: border-box; padding: 0px; margin: 0px;"
+          >
+          <div style="display: flex; width: 100%; height: 100%;">
+            <div style="float: left; position: relative; display: block; width: 24px; margin-right: 16px; margin-left: 0px; height: 24px;">
+              <div>
+                <svg viewbox="0 0 24 24"
+                     style="display: inline-block; color: rgba(0, 0, 0, 0.87); fill: rgba(0, 0, 0, 0.87); height: 24px; width: 24px; position: absolute; opacity: 1;"
+                >
+                  <path d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z">
+                  </path>
+                </svg>
+                <svg viewbox="0 0 24 24"
+                     style="display: inline-block; color: rgba(0, 0, 0, 0.87); fill: #00bcd4; height: 24px; width: 24px; position: absolute; opacity: 0;"
+                >
+                  <path d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z">
+                  </path>
+                </svg>
+              </div>
+              <div>
+              </div>
+              <div style="position: absolute; overflow: hidden; height: 100%; width: 100%; top: 0px; left: 0px;">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          (Optional) Suncream
+        </div>
+        <div style="font-size: 14px; line-height: 18px; height: 36px; margin: 4px 0px 0px 0px; color: rgba(0, 0, 0, 0.54); overflow: hidden; text-overflow: ellipsis; display: -webkit-box;">
+          Just in case it will be shiny.
+        </div>
+      </label>
+    </div>
+    <div>
+      <label style="color: rgba(0, 0, 0, 0.87); display: block; font-size: 16px; line-height: 16px; position: relative; margin-left: 0px; padding: 16px 16px 16px 72px; cursor: pointer;">
+        <div style="cursor: pointer; position: absolute; overflow: visible; display: block; height: auto; width: 24px; top: 12px; left: 16px;">
+          <!-- react-empty: 102 -->
+          <input type="checkbox"
+                 style="position: absolute; cursor: inherit; pointer-events: all; opacity: 0; width: 100%; height: 100%; z-index: 2; left: 0px; box-sizing: border-box; padding: 0px; margin: 0px;"
+          >
+          <div style="display: flex; width: 100%; height: 100%;">
+            <div style="float: left; position: relative; display: block; width: 24px; margin-right: 16px; margin-left: 0px; height: 24px;">
+              <div>
+                <svg viewbox="0 0 24 24"
+                     style="display: inline-block; color: rgba(0, 0, 0, 0.87); fill: rgba(0, 0, 0, 0.87); height: 24px; width: 24px; position: absolute; opacity: 1;"
+                >
+                  <path d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z">
+                  </path>
+                </svg>
+                <svg viewbox="0 0 24 24"
+                     style="display: inline-block; color: rgba(0, 0, 0, 0.87); fill: #00bcd4; height: 24px; width: 24px; position: absolute; opacity: 0;"
+                >
+                  <path d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z">
+                  </path>
+                </svg>
+              </div>
+              <div>
+              </div>
+              <div style="position: absolute; overflow: hidden; height: 100%; width: 100%; top: 0px; left: 0px;">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          (Optional) Mosquito Repellent
+        </div>
+        <div style="font-size: 14px; line-height: 18px; height: 36px; margin: 4px 0px 0px 0px; color: rgba(0, 0, 0, 0.54); overflow: hidden; text-overflow: ellipsis; display: -webkit-box;">
+          You will walk through trees to go to the pier. There may be mosquitoes.
+        </div>
+      </label>
+    </div>
+    <div>
+      <label style="color: rgba(0, 0, 0, 0.87); display: block; font-size: 16px; line-height: 16px; position: relative; margin-left: 0px; padding: 16px 16px 16px 72px; cursor: pointer;">
+        <div style="cursor: pointer; position: absolute; overflow: visible; display: block; height: auto; width: 24px; top: 12px; left: 16px;">
+          <!-- react-empty: 118 -->
+          <input type="checkbox"
+                 style="position: absolute; cursor: inherit; pointer-events: all; opacity: 0; width: 100%; height: 100%; z-index: 2; left: 0px; box-sizing: border-box; padding: 0px; margin: 0px;"
+          >
+          <div style="display: flex; width: 100%; height: 100%;">
+            <div style="float: left; position: relative; display: block; width: 24px; margin-right: 16px; margin-left: 0px; height: 24px;">
+              <div>
+                <svg viewbox="0 0 24 24"
+                     style="display: inline-block; color: rgba(0, 0, 0, 0.87); fill: rgba(0, 0, 0, 0.87); height: 24px; width: 24px; position: absolute; opacity: 1;"
+                >
+                  <path d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z">
+                  </path>
+                </svg>
+                <svg viewbox="0 0 24 24"
+                     style="display: inline-block; color: rgba(0, 0, 0, 0.87); fill: #00bcd4; height: 24px; width: 24px; position: absolute; opacity: 0;"
+                >
+                  <path d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z">
+                  </path>
+                </svg>
+              </div>
+              <div>
+              </div>
+              <div style="position: absolute; overflow: hidden; height: 100%; width: 100%; top: 0px; left: 0px;">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          (Optional) Snacks
+        </div>
+        <div style="font-size: 14px; line-height: 18px; height: 36px; margin: 4px 0px 0px 0px; color: rgba(0, 0, 0, 0.54); overflow: hidden; text-overflow: ellipsis; display: -webkit-box;">
+          Some snacks will be prepared and shared but you are welcome to bring more.
+        </div>
+      </label>
+    </div>
+    <div>
+      <label style="color: rgba(0, 0, 0, 0.87); display: block; font-size: 16px; line-height: 16px; position: relative; margin-left: 0px; padding: 16px 16px 16px 72px; cursor: pointer;">
+        <div style="cursor: pointer; position: absolute; overflow: visible; display: block; height: auto; width: 24px; top: 12px; left: 16px;">
+          <!-- react-empty: 134 -->
+          <input type="checkbox"
+                 style="position: absolute; cursor: inherit; pointer-events: all; opacity: 0; width: 100%; height: 100%; z-index: 2; left: 0px; box-sizing: border-box; padding: 0px; margin: 0px;"
+          >
+          <div style="display: flex; width: 100%; height: 100%;">
+            <div style="float: left; position: relative; display: block; width: 24px; margin-right: 16px; margin-left: 0px; height: 24px;">
+              <div>
+                <svg viewbox="0 0 24 24"
+                     style="display: inline-block; color: rgba(0, 0, 0, 0.87); fill: rgba(0, 0, 0, 0.87); height: 24px; width: 24px; position: absolute; opacity: 1;"
+                >
+                  <path d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z">
+                  </path>
+                </svg>
+                <svg viewbox="0 0 24 24"
+                     style="display: inline-block; color: rgba(0, 0, 0, 0.87); fill: #00bcd4; height: 24px; width: 24px; position: absolute; opacity: 0;"
+                >
+                  <path d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z">
+                  </path>
+                </svg>
+              </div>
+              <div>
+              </div>
+              <div style="position: absolute; overflow: hidden; height: 100%; width: 100%; top: 0px; left: 0px;">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          (Optional) Swimwear
+        </div>
+        <div style="font-size: 14px; line-height: 18px; height: 36px; margin: 4px 0px 0px 0px; color: rgba(0, 0, 0, 0.54); overflow: hidden; text-overflow: ellipsis; display: -webkit-box;">
+          Only if you want to swim.
+        </div>
+      </label>
+    </div>
+    <div>
+      <label style="color: rgba(0, 0, 0, 0.87); display: block; font-size: 16px; line-height: 16px; position: relative; margin-left: 0px; padding: 16px 16px 16px 72px; cursor: pointer;">
+        <div style="cursor: pointer; position: absolute; overflow: visible; display: block; height: auto; width: 24px; top: 12px; left: 16px;">
+          <!-- react-empty: 150 -->
+          <input type="checkbox"
+                 style="position: absolute; cursor: inherit; pointer-events: all; opacity: 0; width: 100%; height: 100%; z-index: 2; left: 0px; box-sizing: border-box; padding: 0px; margin: 0px;"
+          >
+          <div style="display: flex; width: 100%; height: 100%;">
+            <div style="float: left; position: relative; display: block; width: 24px; margin-right: 16px; margin-left: 0px; height: 24px;">
+              <div>
+                <svg viewbox="0 0 24 24"
+                     style="display: inline-block; color: rgba(0, 0, 0, 0.87); fill: rgba(0, 0, 0, 0.87); height: 24px; width: 24px; position: absolute; opacity: 1;"
+                >
+                  <path d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z">
+                  </path>
+                </svg>
+                <svg viewbox="0 0 24 24"
+                     style="display: inline-block; color: rgba(0, 0, 0, 0.87); fill: #00bcd4; height: 24px; width: 24px; position: absolute; opacity: 0;"
+                >
+                  <path d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z">
+                  </path>
+                </svg>
+              </div>
+              <div>
+              </div>
+              <div style="position: absolute; overflow: hidden; height: 100%; width: 100%; top: 0px; left: 0px;">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          (Optional) Small waterproof bag
+        </div>
+        <div style="font-size: 14px; line-height: 18px; height: 36px; margin: 4px 0px 0px 0px; color: rgba(0, 0, 0, 0.54); overflow: hidden; text-overflow: ellipsis; display: -webkit-box;">
+          We will take our valuable belongings with us to visit Star beach and leave them on a dry place, but you may choose to keep it with you in a waterproof bag.
+        </div>
+      </label>
+    </div>
+  </div>
+</div>
+
+`;

@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+
+<div data-reactroot>
+  <div class="faqItem"
+       style="color: rgba(0, 0, 0, 0.87); background-color: rgb(255, 255, 255); box-sizing: border-box; font-family: Roboto, sans-serif; box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12),
+         0 1px 4px rgba(0, 0, 0, 0.12); border-radius: 2px; z-index: 1;"
+  >
+    <div style="padding-bottom: 0px;">
+      <div style="padding: 16px; font-weight: 500; box-sizing: border-box; position: relative; white-space: nowrap; cursor: pointer;">
+        <div style="display: inline-block; vertical-align: top; white-space: normal; padding-right: 90px;">
+          <span style="color: rgba(0, 0, 0, 0.87); display: block; font-size: 15px;">
+            Are we going to rent a yacht and fishing at sea?
+          </span>
+          <span style="color: rgba(0, 0, 0, 0.54); display: block; font-size: 14px;">
+          </span>
+        </div>
+        <button tabindex="0"
+                type="button"
+                style="border: 10px; box-sizing: border-box; display: inline-block; font-family: Roboto, sans-serif; cursor: pointer; text-decoration: none; margin: auto; padding: 12px; outline: none; font-size: 0; font-weight: inherit; position: absolute; z-index: 1; overflow: visible; width: 48px; height: 48px; top: 0px; bottom: 0px; right: 4px; background: none;"
+        >
+          <div>
+            <svg viewbox="0 0 24 24"
+                 style="display: inline-block; color: rgba(0, 0, 0, 0.87); fill: currentColor; height: 24px; width: 24px;"
+            >
+              <path d="M7.41 7.84L12 12.42l4.59-4.58L18 9.25l-6 6-6-6z">
+              </path>
+            </svg>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="faqItem"
+       style="color: rgba(0, 0, 0, 0.87); background-color: rgb(255, 255, 255); box-sizing: border-box; font-family: Roboto, sans-serif; box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12),
+         0 1px 4px rgba(0, 0, 0, 0.12); border-radius: 2px; z-index: 1;"
+  >
+    <div style="padding-bottom: 0px;">
+      <div style="padding: 16px; font-weight: 500; box-sizing: border-box; position: relative; white-space: nowrap; cursor: pointer;">
+        <div style="display: inline-block; vertical-align: top; white-space: normal; padding-right: 90px;">
+          <span style="color: rgba(0, 0, 0, 0.87); display: block; font-size: 15px;">
+            What if there is bad weather?
+          </span>
+          <span style="color: rgba(0, 0, 0, 0.54); display: block; font-size: 14px;">
+          </span>
+        </div>
+        <button tabindex="0"
+                type="button"
+                style="border: 10px; box-sizing: border-box; display: inline-block; font-family: Roboto, sans-serif; cursor: pointer; text-decoration: none; margin: auto; padding: 12px; outline: none; font-size: 0; font-weight: inherit; position: absolute; z-index: 1; overflow: visible; width: 48px; height: 48px; top: 0px; bottom: 0px; right: 4px; background: none;"
+        >
+          <div>
+            <svg viewbox="0 0 24 24"
+                 style="display: inline-block; color: rgba(0, 0, 0, 0.87); fill: currentColor; height: 24px; width: 24px;"
+            >
+              <path d="M7.41 7.84L12 12.42l4.59-4.58L18 9.25l-6 6-6-6z">
+              </path>
+            </svg>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="faqItem"
+       style="color: rgba(0, 0, 0, 0.87); background-color: rgb(255, 255, 255); box-sizing: border-box; font-family: Roboto, sans-serif; box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12),
+         0 1px 4px rgba(0, 0, 0, 0.12); border-radius: 2px; z-index: 1;"
+  >
+    <div style="padding-bottom: 0px;">
+      <div style="padding: 16px; font-weight: 500; box-sizing: border-box; position: relative; white-space: nowrap; cursor: pointer;">
+        <div style="display: inline-block; vertical-align: top; white-space: normal; padding-right: 90px;">
+          <span style="color: rgba(0, 0, 0, 0.87); display: block; font-size: 15px;">
+            Can I swim there?
+          </span>
+          <span style="color: rgba(0, 0, 0, 0.54); display: block; font-size: 14px;">
+          </span>
+        </div>
+        <button tabindex="0"
+                type="button"
+                style="border: 10px; box-sizing: border-box; display: inline-block; font-family: Roboto, sans-serif; cursor: pointer; text-decoration: none; margin: auto; padding: 12px; outline: none; font-size: 0; font-weight: inherit; position: absolute; z-index: 1; overflow: visible; width: 48px; height: 48px; top: 0px; bottom: 0px; right: 4px; background: none;"
+        >
+          <div>
+            <svg viewbox="0 0 24 24"
+                 style="display: inline-block; color: rgba(0, 0, 0, 0.87); fill: currentColor; height: 24px; width: 24px;"
+            >
+              <path d="M7.41 7.84L12 12.42l4.59-4.58L18 9.25l-6 6-6-6z">
+              </path>
+            </svg>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="faqItem"
+       style="color: rgba(0, 0, 0, 0.87); background-color: rgb(255, 255, 255); box-sizing: border-box; font-family: Roboto, sans-serif; box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12),
+         0 1px 4px rgba(0, 0, 0, 0.12); border-radius: 2px; z-index: 1;"
+  >
+    <div style="padding-bottom: 0px;">
+      <div style="padding: 16px; font-weight: 500; box-sizing: border-box; position: relative; white-space: nowrap; cursor: pointer;">
+        <div style="display: inline-block; vertical-align: top; white-space: normal; padding-right: 90px;">
+          <span style="color: rgba(0, 0, 0, 0.87); display: block; font-size: 15px;">
+            What is Star beach? What's so special about it?
+          </span>
+          <span style="color: rgba(0, 0, 0, 0.54); display: block; font-size: 14px;">
+          </span>
+        </div>
+        <button tabindex="0"
+                type="button"
+                style="border: 10px; box-sizing: border-box; display: inline-block; font-family: Roboto, sans-serif; cursor: pointer; text-decoration: none; margin: auto; padding: 12px; outline: none; font-size: 0; font-weight: inherit; position: absolute; z-index: 1; overflow: visible; width: 48px; height: 48px; top: 0px; bottom: 0px; right: 4px; background: none;"
+        >
+          <div>
+            <svg viewbox="0 0 24 24"
+                 style="display: inline-block; color: rgba(0, 0, 0, 0.87); fill: currentColor; height: 24px; width: 24px;"
+            >
+              <path d="M7.41 7.84L12 12.42l4.59-4.58L18 9.25l-6 6-6-6z">
+              </path>
+            </svg>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="faqItem"
+       style="color: rgba(0, 0, 0, 0.87); background-color: rgb(255, 255, 255); box-sizing: border-box; font-family: Roboto, sans-serif; box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12),
+         0 1px 4px rgba(0, 0, 0, 0.12); border-radius: 2px; z-index: 1;"
+  >
+    <div style="padding-bottom: 0px;">
+      <div style="padding: 16px; font-weight: 500; box-sizing: border-box; position: relative; white-space: nowrap; cursor: pointer;">
+        <div style="display: inline-block; vertical-align: top; white-space: normal; padding-right: 90px;">
+          <span style="color: rgba(0, 0, 0, 0.87); display: block; font-size: 15px;">
+            Is there any mobile network coverage?
+          </span>
+          <span style="color: rgba(0, 0, 0, 0.54); display: block; font-size: 14px;">
+          </span>
+        </div>
+        <button tabindex="0"
+                type="button"
+                style="border: 10px; box-sizing: border-box; display: inline-block; font-family: Roboto, sans-serif; cursor: pointer; text-decoration: none; margin: auto; padding: 12px; outline: none; font-size: 0; font-weight: inherit; position: absolute; z-index: 1; overflow: visible; width: 48px; height: 48px; top: 0px; bottom: 0px; right: 4px; background: none;"
+        >
+          <div>
+            <svg viewbox="0 0 24 24"
+                 style="display: inline-block; color: rgba(0, 0, 0, 0.87); fill: currentColor; height: 24px; width: 24px;"
+            >
+              <path d="M7.41 7.84L12 12.42l4.59-4.58L18 9.25l-6 6-6-6z">
+              </path>
+            </svg>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+`;

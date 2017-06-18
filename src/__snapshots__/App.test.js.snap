@@ -3,8 +3,8 @@
 exports[`renders correctly 1`] = `
 
 <div data-reactroot>
-  <div style="color: rgba(0, 0, 0, 0.87); background-color: rgb(0, 188, 212); box-sizing: border-box; font-family: Roboto, sans-serif; box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12),
-         0 1px 4px rgba(0, 0, 0, 0.12); border-radius: 0px; position: relative; z-index: 1100; width: 100%; display: flex; padding-left: 24px; padding-right: 24px;">
+  <div style="color: rgba(0, 0, 0, 0.87); background-color: rgb(33, 150, 243); box-sizing: border-box; font-family: Roboto, sans-serif; box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12),
+         0 1px 4px rgba(0, 0, 0, 0.12); border-radius: 0px; position: fixed; z-index: 1100; width: 100%; display: flex; padding-left: 24px; padding-right: 24px; top: 0px;">
     <button tabindex="0"
             type="button"
             style="border: 10px; box-sizing: border-box; display: inline-block; font-family: Roboto, sans-serif; cursor: pointer; text-decoration: none; margin: 8px 8px 0px -16px; padding: 12px; outline: none; font-size: 0; font-weight: inherit; position: relative; z-index: 1; overflow: visible; width: 48px; height: 48px; background: none;"
@@ -177,6 +177,25 @@ exports[`renders correctly 1`] = `
             >
               <div>
                 <div style="margin-left: 0px; padding: 0px 16px 0px 72px; position: relative;">
+                  <span class="icofont icofont-listine-dots"
+                        color="#757575"
+                        style="color: rgb(117, 117, 117); position: absolute; font-size: 24px; display: block; height: 24px; width: 24px; top: 0px; margin: 12px; left: 4px;"
+                  >
+                  </span>
+                  <div>
+                    Preparations
+                  </div>
+                </div>
+              </div>
+            </span>
+          </div>
+          <div>
+            <span role="menuitem"
+                  tabindex="0"
+                  style="border: 10px; box-sizing: border-box; display: block; font-family: Roboto, sans-serif; cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: 16px; font-weight: inherit; position: relative; z-index: 1; color: rgba(0, 0, 0, 0.87); line-height: 48px; min-height: 48px; white-space: nowrap; background: none;"
+            >
+              <div>
+                <div style="margin-left: 0px; padding: 0px 16px 0px 72px; position: relative;">
                   <span class="icofont icofont-question-circle"
                         color="#757575"
                         style="color: rgb(117, 117, 117); position: absolute; font-size: 24px; display: block; height: 24px; width: 24px; top: 0px; margin: 12px; left: 4px;"
@@ -199,16 +218,17 @@ exports[`renders correctly 1`] = `
     <div>
       Home
     </div>
-    <!-- react-empty: 66 -->
-    <!-- react-empty: 67 -->
-    <!-- react-empty: 68 -->
-    <!-- react-empty: 69 -->
-    <!-- react-empty: 70 -->
-    <!-- react-empty: 71 -->
     <!-- react-empty: 72 -->
     <!-- react-empty: 73 -->
     <!-- react-empty: 74 -->
     <!-- react-empty: 75 -->
+    <!-- react-empty: 76 -->
+    <!-- react-empty: 77 -->
+    <!-- react-empty: 78 -->
+    <!-- react-empty: 79 -->
+    <!-- react-empty: 80 -->
+    <!-- react-empty: 81 -->
+    <!-- react-empty: 82 -->
   </div>
 </div>
 

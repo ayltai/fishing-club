@@ -1,0 +1,211 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+
+<div data-reactroot>
+  <div class="meetingPointItem"
+       style="color: rgba(0, 0, 0, 0.87); background-color: rgb(255, 255, 255); box-sizing: border-box; font-family: Roboto, sans-serif; box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12),
+         0 1px 4px rgba(0, 0, 0, 0.12); border-radius: 2px; z-index: 1;"
+  >
+    <div style="padding-bottom: 8px;">
+      <div style="position: relative;">
+        <div>
+          <img src="tseng-tau-tsuen.jpg"
+               style="vertical-align: top; max-width: 100%; min-width: 100%; width: 100%;"
+          >
+        </div>
+        <!-- react-text: 7 -->
+        <!-- /react-text -->
+      </div>
+      <div style="padding: 16px; position: relative;">
+        <span style="font-size: 24px; color: rgba(0, 0, 0, 0.87); display: block; line-height: 36px;">
+          <div>
+            <strong>
+              11:30 AM
+            </strong>
+            <!-- react-text: 12 -->
+            Tseng Tau Tsuen (井頭村) Minibus Terminus
+            <!-- /react-text -->
+          </div>
+        </span>
+        <span style="font-size: 14px; color: rgba(0, 0, 0, 0.54); display: block;">
+        </span>
+      </div>
+      <div style="padding: 16px; font-size: 14px; color: rgba(0, 0, 0, 0.87);">
+        <p>
+          <!-- react-text: 16 -->
+          If you take Green Minibus
+          <!-- /react-text -->
+          <a href="http://www.16seats.net/eng/gmb/gn_807k.html"
+             title="Minibus route 807K"
+             target="_blank"
+          >
+            route 807K
+          </a>
+          <!-- react-text: 18 -->
+          , it will take you to Tseng Tau Tsuen at the last stop.
+          <!-- /react-text -->
+        </p>
+        <p>
+          <!-- react-text: 20 -->
+          It should not be too difficult to walk to there even if you take other routes. Click
+          <!-- /react-text -->
+          <a href="/places/getting-there"
+             title="Getting there"
+          >
+            here
+          </a>
+          <!-- react-text: 22 -->
+          to learn how you can get there.
+          <!-- /react-text -->
+        </p>
+        <div style="text-align: center;">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d118076.89549807012!2d114.09542218135105!3d22.357291765113327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34040f135a9753fd%3A0x7b16803ad7ba2578!2sTseng+Tau+Tsuen!5e0!3m2!1sen!2shk!4v1497718219869"
+                  width="600"
+                  height="450"
+                  frameborder="0"
+                  style="border:0"
+                  allowfullscreen
+          >
+          </iframe>
+        </div>
+        <p>
+          There are 3 piers near Tseng Tau Tsuen. We will walk 10 minutes to the farthest one, Kei Ling Ha Hoi Pier (企嶺下海碼頭), aka Sam Pui Chau Pier (三杯酒碼頭).
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="meetingPointItem"
+       style="color: rgba(0, 0, 0, 0.87); background-color: rgb(255, 255, 255); box-sizing: border-box; font-family: Roboto, sans-serif; box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12),
+         0 1px 4px rgba(0, 0, 0, 0.12); border-radius: 2px; z-index: 1;"
+  >
+    <div style="padding-bottom: 8px;">
+      <div style="position: relative;">
+        <div>
+          <img src="sam-pui-chau-pier.jpg"
+               style="vertical-align: top; max-width: 100%; min-width: 100%; width: 100%;"
+          >
+        </div>
+        <!-- react-text: 30 -->
+        <!-- /react-text -->
+      </div>
+      <div style="padding: 16px; position: relative;">
+        <span style="font-size: 24px; color: rgba(0, 0, 0, 0.87); display: block; line-height: 36px;">
+          <div>
+            <strong>
+              12:00 PM
+            </strong>
+            <!-- react-text: 35 -->
+            Sam Pui Chau Pier (三杯酒碼頭)
+            <!-- /react-text -->
+          </div>
+        </span>
+        <span style="font-size: 14px; color: rgba(0, 0, 0, 0.54); display: block;">
+        </span>
+      </div>
+      <div style="padding: 16px; font-size: 14px; color: rgba(0, 0, 0, 0.87);">
+        <p>
+          We will walk from the minibus terminus to the pier. Part of the road is covered by trees.
+        </p>
+        <div style="text-align: center;">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m0!4v1497720781547!6m8!1m7!1sF%3A-fdAcu4b9pSo%2FVWPjmljUzqI%2FAAAAAAABNu8%2FuVblQhFXCA8dJteEehAfsukFs8jXNOuWwCJkC!2m2!1d22.4317466!2d114.2694121!3f215.51966352377502!4f18.855990498735693!5f0.7820865974627469"
+                  width="600"
+                  height="450"
+                  frameborder="0"
+                  style="border:0"
+                  allowfullscreen
+          >
+          </iframe>
+        </div>
+        <p>
+          We will take the boat provided by the raft owner. In a few minutes, we will arrive at the raft.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="meetingPointItem"
+       style="color: rgba(0, 0, 0, 0.87); background-color: rgb(255, 255, 255); box-sizing: border-box; font-family: Roboto, sans-serif; box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12),
+         0 1px 4px rgba(0, 0, 0, 0.12); border-radius: 2px; z-index: 1;"
+  >
+    <div style="padding-bottom: 8px;">
+      <div style="position: relative;">
+        <div>
+          <img src="yung-shue-o-raft.jpg"
+               style="vertical-align: top; max-width: 100%; min-width: 100%; width: 100%;"
+          >
+        </div>
+        <!-- react-text: 46 -->
+        <!-- /react-text -->
+      </div>
+      <div style="padding: 16px; position: relative;">
+        <span style="font-size: 24px; color: rgba(0, 0, 0, 0.87); display: block; line-height: 36px;">
+          <div>
+            <strong>
+              12:15 PM
+            </strong>
+            <!-- react-text: 51 -->
+            Yung Shue O Raft (榕樹澳漁排)
+            <!-- /react-text -->
+          </div>
+        </span>
+        <span style="font-size: 14px; color: rgba(0, 0, 0, 0.54); display: block;">
+        </span>
+      </div>
+      <div style="padding: 16px; font-size: 14px; color: rgba(0, 0, 0, 0.87);">
+        <p>
+          There are over 100 rafts and we will spend our day on one of these.
+        </p>
+        <div style="text-align: center;">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m0!4v1497721548633!6m8!1m7!1sF%3A-VrMR0TfFtys%2FVgFlCaK9KWI%2FAAAAAAAAfXM%2FlgIkW-sv43ovS31ljaaIgvCJ37JFTIxQgCLIB!2m2!1d22.4219482!2d114.2769164!3f16.208133242012664!4f1.518324652762871!5f0.7820865974627469"
+                  width="600"
+                  height="450"
+                  frameborder="0"
+                  style="border:0"
+                  allowfullscreen
+          >
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="meetingPointItem"
+       style="color: rgba(0, 0, 0, 0.87); background-color: rgb(255, 255, 255); box-sizing: border-box; font-family: Roboto, sans-serif; box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12),
+         0 1px 4px rgba(0, 0, 0, 0.12); border-radius: 2px; z-index: 1;"
+  >
+    <div style="padding-bottom: 8px;">
+      <div style="position: relative;">
+        <div>
+          <img src="raft-evening.jpg"
+               style="vertical-align: top; max-width: 100%; min-width: 100%; width: 100%;"
+          >
+        </div>
+        <!-- react-text: 61 -->
+        <!-- /react-text -->
+      </div>
+      <div style="padding: 16px; position: relative;">
+        <span style="font-size: 24px; color: rgba(0, 0, 0, 0.87); display: block; line-height: 36px;">
+          <div>
+            <strong>
+              Evening
+            </strong>
+            <!-- react-text: 66 -->
+            Yung Shue O Raft (榕樹澳漁排)
+            <!-- /react-text -->
+          </div>
+        </span>
+        <span style="font-size: 14px; color: rgba(0, 0, 0, 0.54); display: block;">
+        </span>
+      </div>
+      <div style="padding: 16px; font-size: 14px; color: rgba(0, 0, 0, 0.87);">
+        <p>
+          We will again take the boat provided by the raft owner to go back to the pier, and walk the way back to the minibus terminus.
+        </p>
+        <p>
+          We will dismiss at the minibus terminus. Some of us will take minibus route 807K, some may walk to the bus station, and some may take a taxi.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+`;
