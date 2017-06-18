@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+
+<div data-reactroot>
+  <div class="homeItem"
+       style="color: rgba(0, 0, 0, 0.87); background-color: rgb(255, 255, 255); box-sizing: border-box; font-family: Roboto, sans-serif; box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12),
+         0 1px 4px rgba(0, 0, 0, 0.12); border-radius: 2px; z-index: 1;"
+  >
+    <div style="padding-bottom: 8px;">
+      <div style="position: relative;">
+        <div>
+          <img src="logo.jpg"
+               style="vertical-align: top; max-width: 100%; min-width: 100%; width: 100%;"
+          >
+        </div>
+        <!-- react-text: 7 -->
+        <!-- /react-text -->
+      </div>
+      <div style="padding: 16px; position: relative;">
+        <span style="font-size: 24px; color: rgba(0, 0, 0, 0.87); display: block; line-height: 36px;">
+          Fishing Club
+        </span>
+        <span style="font-size: 14px; color: rgba(0, 0, 0, 0.54); display: block;">
+        </span>
+      </div>
+      <div style="padding: 16px; font-size: 14px; color: rgba(0, 0, 0, 0.87);">
+        <p>
+          Welcome to our fishing club! We are going to hold our first ever fishing activity. Here you will find useful information in a nicely organized way.
+        </p>
+        <p>
+          <!-- react-text: 14 -->
+          We try to include as much detailed information as we can. Do let us know if we miss any information that you need. If you are in a hurry, please check
+          <!-- /react-text -->
+          <a href="/others/preparations"
+             title="Preparations"
+          >
+            Preparations
+          </a>
+          <!-- react-text: 16 -->
+          page where you will learn how to better prepare yourself for the activity.
+          <!-- /react-text -->
+        </p>
+        <p>
+          Hope you will enjoy the activity.
+        </p>
+        <br>
+        <p>
+          <small>
+            <!-- react-text: 21 -->
+            The source code of this website is hosted on
+            <!-- /react-text -->
+            <a href="https://github.com/ayltai/fishing-club"
+               title="GitHub"
+            >
+              GitHub
+            </a>
+            <!-- react-text: 23 -->
+            .
+            <!-- /react-text -->
+          </small>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+`;

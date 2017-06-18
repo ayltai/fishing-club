@@ -257,21 +257,37 @@ exports[`renders correctly 1`] = `
             <p>
               Hope you will enjoy the activity.
             </p>
+            <br>
+            <p>
+              <small>
+                <!-- react-text: 91 -->
+                The source code of this website is hosted on
+                <!-- /react-text -->
+                <a href="https://github.com/ayltai/fishing-club"
+                   title="GitHub"
+                >
+                  GitHub
+                </a>
+                <!-- react-text: 93 -->
+                .
+                <!-- /react-text -->
+              </small>
+            </p>
           </div>
         </div>
       </div>
     </div>
-    <!-- react-empty: 88 -->
-    <!-- react-empty: 89 -->
-    <!-- react-empty: 90 -->
-    <!-- react-empty: 91 -->
-    <!-- react-empty: 92 -->
-    <!-- react-empty: 93 -->
     <!-- react-empty: 94 -->
     <!-- react-empty: 95 -->
     <!-- react-empty: 96 -->
     <!-- react-empty: 97 -->
     <!-- react-empty: 98 -->
+    <!-- react-empty: 99 -->
+    <!-- react-empty: 100 -->
+    <!-- react-empty: 101 -->
+    <!-- react-empty: 102 -->
+    <!-- react-empty: 103 -->
+    <!-- react-empty: 104 -->
   </div>
 </div>
 
