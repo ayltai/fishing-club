@@ -38,6 +38,9 @@ class Faq extends React.Component {
                     question={'What is Star beach? What\'s so special about it?'}
                     answer="Blah blah blah" />
                 <FaqItem
+                    question="What types of fish can I catch there?"
+                    answer="Usually in summer, you will find groups of baby snappers (鱲魚) and some mottled spinefoot (泥鯭). Sometimes if you are lucky, you may catch small groupers (石斑)." />
+                <FaqItem
                     question="Is there any mobile network coverage?"
                     answer="Of course! It is covered by all mobile network providers." />
             </div>
