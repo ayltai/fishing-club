@@ -13,7 +13,6 @@ test:
   override:
     - npm run test -- --coverage
   post:
-    - cp -r coverage/* $CIRCLE_TEST_REPORTS/coverage
     - ./node_modules/.bin/codacy-coverage
     - npm build
     - cp -r build/* $CIRCLE_ARTIFACTS/build
