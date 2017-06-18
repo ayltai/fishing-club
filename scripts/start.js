@@ -34,7 +34,7 @@ const {
 } = require('react-dev-utils/WebpackDevServerUtils');
 
 // Warn and crash if required files are missing
-if (!checkRequiredFiles([ aths.appHtml, paths.appIndexJs ])) process.exit(1);
+if (!checkRequiredFiles([ paths.appHtml, paths.appIndexJs ])) process.exit(1);
 
 // Tools like Cloud9 rely on this.
 const PREDEFINED_PORT = 8080;
