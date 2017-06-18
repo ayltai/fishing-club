@@ -25,11 +25,15 @@ import './App.css';
 
 injectTapEventPlugin();
 
-const theme = getMuiTheme({
+const theme : Object = getMuiTheme({
     palette : {
         primary1Color : blue500
     }
 });
+
+const DRAWER_WIDTH    : number = 230;
+const CONTENT_WIDTH_1 : number = 800;
+const CONTENT_WIDTH_2 : number = 960;
 
 const createNavItems = () : NavItem[] => {
     const items = [];
@@ -74,8 +78,8 @@ export default class App extends React.Component {
         super(props);
 
         this.state = {
-            drawerWidth  : 230,
-            contentWidth : 800
+            drawerWidth  : DRAWER_WIDTH,
+            contentWidth : CONTENT_WIDTH_1
         };
 
         this._navItems  = createNavItems();
@@ -97,8 +101,8 @@ export default class App extends React.Component {
                             this._appDrawer.isOpened = !this._appDrawer.isOpened;
 
                             this.setState({
-                                drawerWidth  : this._appDrawer.isOpened ? 230 : 0,
-                                contentWidth : this._appDrawer.isOpened ? 800 : 960
+                                drawerWidth  : this._appDrawer.isOpened ? DRAWER_WIDTH : 0,
+                                contentWidth : this._appDrawer.isOpened ? CONTENT_WIDTH_1 : CONTENT_WIDTH_2
                             });
                         }} />
                     <AppDrawer store={this._appDrawer} />
