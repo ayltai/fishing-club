@@ -39,7 +39,6 @@
         // Possible Errors
         "no-console"                     : "off",
         // Best Practices
-        "class-methods-use-this"         : "warn",
         "complexity"                     : [ "warn", 32 ],
         "consistent-return"              : "warn",
         "dot-location"                   : [ "error", "property" ],
