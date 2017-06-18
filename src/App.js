@@ -12,7 +12,7 @@ import AppDrawer from './components/navigation/AppDrawer';
 import AppDrawerStore from './components/navigation/AppDrawerStore';
 import NavItem from './components/navigation/NavItem';
 import Home from './pages/Home';
-import YungShueORaft from './pages/places/YungShueORaft';
+import YungShueORafts from './pages/places/YungShueORafts';
 import MeetingPoint from './pages/places/MeetingPoint';
 import GettingThere from './pages/places/GettingThere';
 import Barbecue from './pages/activities/Barbecue';
@@ -36,7 +36,7 @@ const createNavItems = () : NavItem[] => {
 
     items.push(new NavItem('/', 'Home', 'icofont icofont-home', <Home />));
     items.push(new NavItem('-'));
-    items.push(new NavItem('/places/yung-shue-o-raft', 'Yung Shue O raft', 'icofont icofont-ui-map', <YungShueORaft />));
+    items.push(new NavItem('/places/yung-shue-o-rafts', 'Yung Shue O rafts', 'icofont icofont-ui-map', <YungShueORafts />));
     items.push(new NavItem('/places/meeting-point', 'Meeting point', 'icofont icofont-social-google-map', <MeetingPoint />));
     items.push(new NavItem('/places/getting-there', 'Getting there', 'icofont icofont-bus', <GettingThere />));
     items.push(new NavItem('-'));

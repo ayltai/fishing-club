@@ -10,7 +10,7 @@ const Faq = () : any => {
         <div>
             <FaqItem
                 question="Are we going to rent a yacht and fishing at sea?"
-                answer={<div>Not exactly. We will meet at <a href="https://goo.gl/maps/4kfABNV6Pc92" title="Tseng Tau Tsuen (井頭村)" target="_blank">Tseng Tau Tsuen (井頭村)</a>, walk a few minutes to <a href="https://goo.gl/maps/R4qv67i4KX42" title="Kei Ling Ha Hoi Pier (企嶺下海碼頭), aka Sam Pui Chau Pier (三杯酒碼頭)" target="_blank">Kei Ling Ha Hoi Pier (企嶺下海碼頭), aka Sam Pui Chau Pier (三杯酒碼頭)</a>, and take a boat to <a href="https://goo.gl/maps/P7zwgrFRq8t" title="Yung Shue O raft (榕樹澳漁排)" target="_blank">Yung Shue O raft (榕樹澳漁排)</a>, which is a group of fish cultivation facilities floating on the sea.</div>} />
+                answer={<div>Not exactly. We will meet at <a href="https://goo.gl/maps/4kfABNV6Pc92" title="Tseng Tau Tsuen (井頭村)" target="_blank">Tseng Tau Tsuen (井頭村)</a>, walk a few minutes to <a href="https://goo.gl/maps/R4qv67i4KX42" title="Kei Ling Ha Hoi Pier (企嶺下海碼頭), aka Sam Pui Chau Pier (三杯酒碼頭)" target="_blank">Kei Ling Ha Hoi Pier (企嶺下海碼頭), aka Sam Pui Chau Pier (三杯酒碼頭)</a>, and take a boat to <a href="https://goo.gl/maps/P7zwgrFRq8t" title="Yung Shue O rafts (榕樹澳漁排)" target="_blank">Yung Shue O rafts (榕樹澳漁排)</a>, which is a group of fish cultivation facilities floating on the sea.</div>} />
             <FaqItem
                 question="What if there is bad weather?"
                 answer={
