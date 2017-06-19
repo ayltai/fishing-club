@@ -4,6 +4,7 @@
 import React from 'react';
 import muiThemeable from 'material-ui/styles/muiThemeable';
 import { Card, CardMedia, CardTitle, CardText } from 'material-ui/Card';
+import LazyLoad from 'react-lazy-load';
 import './YungShueORafts.css';
 import OurRaft1Image from '../../images/our-raft-1.jpg';
 import OurRaft2Image from '../../images/our-raft-2.jpg';
@@ -36,36 +37,50 @@ class YungShueORafts extends React.Component {
                     <CardTitle title="Our raft" />
                     <CardText>
                         <p></p>
-                        <div
-                            style={{
-                                textAlign : 'center'
-                            }}>
-                            <img
-                                src={OurRaft1Image}
+                        <LazyLoad
+                            width={768}
+                            height={640}>
+                            <div
                                 style={{
-                                    maxWidth : '100%'
-                                }} />
-                        </div>
-                        <div
-                            style={{
-                                textAlign : 'center'
-                            }}>
-                            <img
-                                src={OurRaft2Image}
+                                    textAlign : 'center'
+                                }}>
+                                <img
+                                    src={OurRaft1Image}
+                                    style={{
+                                        maxWidth : '100%'
+                                    }} />
+                            </div>
+                        </LazyLoad>
+                        <br />
+                        <LazyLoad
+                            width={768}
+                            height={400}>
+                            <div
                                 style={{
-                                    maxWidth : '100%'
-                                }} />
-                        </div>
-                        <div
-                            style={{
-                                textAlign : 'center'
-                            }}>
-                            <img
-                                src={OurRaft3Image}
+                                    textAlign : 'center'
+                                }}>
+                                <img
+                                    src={OurRaft2Image}
+                                    style={{
+                                        maxWidth : '100%'
+                                    }} />
+                            </div>
+                        </LazyLoad>
+                        <br />
+                        <LazyLoad
+                            width={768}
+                            height={400}>
+                            <div
                                 style={{
-                                    maxWidth : '100%'
-                                }} />
-                        </div>
+                                    textAlign : 'center'
+                                }}>
+                                <img
+                                    src={OurRaft3Image}
+                                    style={{
+                                        maxWidth : '100%'
+                                    }} />
+                            </div>
+                        </LazyLoad>
                     </CardText>
                 </Card>
             </div>

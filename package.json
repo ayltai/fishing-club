@@ -27,6 +27,7 @@
         "randomstring"     : "^1.1.5",
         "react"            : "^15.6.1",
         "react-dom"        : "^15.6.1",
+        "react-lazy-load"  : "^3.0.12",
         "react-router-dom" : "^4.1.1",
         "react-split-pane" : "^0.1.63",
         "rx-lite"          : "^4.0.8"

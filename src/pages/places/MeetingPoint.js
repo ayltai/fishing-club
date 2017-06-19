@@ -4,6 +4,7 @@
 import React from 'react';
 import muiThemeable from 'material-ui/styles/muiThemeable';
 import { Card, CardMedia, CardTitle, CardText } from 'material-ui/Card';
+import LazyLoad from 'react-lazy-load';
 import './MeetingPoint.css';
 import RaftEveningImage from '../../images/raft-evening.jpg';
 import SamPuiChauPierImage from '../../images/sam-pui-chau-pier.jpg';
@@ -30,13 +31,19 @@ class MeetingPoint extends React.Component {
                     <CardText>
                         <p>If you take Green Minibus <a href="http://www.16seats.net/eng/gmb/gn_807k.html" title="Minibus route 807K" target="_blank">route 807K</a>, it will take you to Tseng Tau Tsuen at the last stop.</p>
                         <p>It should not be too difficult to walk to there even if you take other routes. Click <a href="/places/getting-there" title="Getting there">here</a> to learn how you can get there.</p>
-                        <div
-                            style={{
-                                textAlign : 'center'
-                            }}
-                            dangerouslySetInnerHTML={{
-                                __html : '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d118076.89549807012!2d114.09542218135105!3d22.357291765113327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34040f135a9753fd%3A0x7b16803ad7ba2578!2sTseng+Tau+Tsuen!5e0!3m2!1sen!2shk!4v1497718219869" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
-                            }} />
+                        <LazyLoad
+                            width={768}
+                            height={450}>
+                            <div
+                                style={{
+                                    textAlign : 'center'
+                                }}>
+                                <div
+                                    dangerouslySetInnerHTML={{
+                                        __html : '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d118076.89549807012!2d114.09542218135105!3d22.357291765113327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34040f135a9753fd%3A0x7b16803ad7ba2578!2sTseng+Tau+Tsuen!5e0!3m2!1sen!2shk!4v1497718219869" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+                                    }} />
+                            </div>
+                        </LazyLoad>
                         <p>There are 3 piers near Tseng Tau Tsuen. We will walk 10 minutes to the farthest one, Kei Ling Ha Hoi Pier (企嶺下海碼頭), aka Sam Pui Chau Pier (三杯酒碼頭).</p>
                     </CardText>
                 </Card>
@@ -51,13 +58,19 @@ class MeetingPoint extends React.Component {
                     <CardTitle title={<div><strong>12:00 PM</strong> Sam Pui Chau Pier (三杯酒碼頭)</div>} />
                     <CardText>
                         <p>We will walk from the minibus terminus to the pier. Part of the road is covered by trees.</p>
-                        <div
-                            style={{
-                                textAlign : 'center'
-                            }}
-                            dangerouslySetInnerHTML={{
-                                __html : '<iframe src="https://www.google.com/maps/embed?pb=!1m0!4v1497720781547!6m8!1m7!1sF%3A-fdAcu4b9pSo%2FVWPjmljUzqI%2FAAAAAAABNu8%2FuVblQhFXCA8dJteEehAfsukFs8jXNOuWwCJkC!2m2!1d22.4317466!2d114.2694121!3f215.51966352377502!4f18.855990498735693!5f0.7820865974627469" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
-                            }} />
+                        <LazyLoad
+                            width={768}
+                            height={450}>
+                            <div
+                                style={{
+                                    textAlign : 'center'
+                                }}>
+                                <div
+                                    dangerouslySetInnerHTML={{
+                                        __html : '<iframe src="https://www.google.com/maps/embed?pb=!1m0!4v1497720781547!6m8!1m7!1sF%3A-fdAcu4b9pSo%2FVWPjmljUzqI%2FAAAAAAABNu8%2FuVblQhFXCA8dJteEehAfsukFs8jXNOuWwCJkC!2m2!1d22.4317466!2d114.2694121!3f215.51966352377502!4f18.855990498735693!5f0.7820865974627469" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+                                    }} />
+                            </div>
+                        </LazyLoad>
                         <p>We will take the boat provided by the raft owner. In a few minutes, we will arrive at the raft.</p>
                     </CardText>
                 </Card>
@@ -72,13 +85,19 @@ class MeetingPoint extends React.Component {
                     <CardTitle title={<div><strong>12:15 PM</strong> Yung Shue O Raft (榕樹澳漁排)</div>} />
                     <CardText>
                         <p>There are over 100 rafts and we will spend our day on one of these.</p>
-                        <div
-                            style={{
-                                textAlign : 'center'
-                            }}
-                            dangerouslySetInnerHTML={{
-                                __html : '<iframe src="https://www.google.com/maps/embed?pb=!1m0!4v1497721548633!6m8!1m7!1sF%3A-VrMR0TfFtys%2FVgFlCaK9KWI%2FAAAAAAAAfXM%2FlgIkW-sv43ovS31ljaaIgvCJ37JFTIxQgCLIB!2m2!1d22.4219482!2d114.2769164!3f16.208133242012664!4f1.518324652762871!5f0.7820865974627469" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
-                            }} />
+                        <LazyLoad
+                            width={768}
+                            height={450}>
+                            <div
+                                style={{
+                                    textAlign : 'center'
+                                }}>
+                                <div
+                                    dangerouslySetInnerHTML={{
+                                        __html : '<iframe src="https://www.google.com/maps/embed?pb=!1m0!4v1497721548633!6m8!1m7!1sF%3A-VrMR0TfFtys%2FVgFlCaK9KWI%2FAAAAAAAAfXM%2FlgIkW-sv43ovS31ljaaIgvCJ37JFTIxQgCLIB!2m2!1d22.4219482!2d114.2769164!3f16.208133242012664!4f1.518324652762871!5f0.7820865974627469" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+                                    }} />
+                            </div>
+                        </LazyLoad>
                     </CardText>
                 </Card>
                 <Card className="meetingPointItem">

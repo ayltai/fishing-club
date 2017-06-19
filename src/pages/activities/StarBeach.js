@@ -4,6 +4,7 @@
 import React from 'react';
 import muiThemeable from 'material-ui/styles/muiThemeable';
 import { Card, CardMedia, CardTitle, CardText } from 'material-ui/Card';
+import LazyLoad from 'react-lazy-load';
 import './StarBeach.css';
 import StarBeachImage from '../../images/star-beach.jpg';
 import StarfishImage from '../../images/starfish.jpg';
@@ -29,16 +30,20 @@ class StarBeach extends React.Component {
                         subtitle="A good place for selfies" />
                     <CardText>
                         <p>It is a beach covered entirely by water and only appears when the tide is low. It was a place with no name, and people start to call it "Star beach" because the water there is so clear that many starfishes live in there.</p>
-                        <div
-                            style={{
-                                textAlign : 'center'
-                            }}>
-                            <img
-                                src={StarfishImage}
+                        <LazyLoad
+                            width={768}
+                            height={450}>
+                            <div
                                 style={{
-                                    maxWidth : '100%'
-                                }} />
-                        </div>
+                                    textAlign : 'center'
+                                }}>
+                                <img
+                                    src={StarfishImage}
+                                    style={{
+                                        maxWidth : '100%'
+                                    }} />
+                            </div>
+                        </LazyLoad>
                         <p>Sadly, due to heavy pollutions, we can no longer find that many starfishes there as shown in the above image. But still, we will find some, and you can even put it in your hands to feel when it crawls.</p>
                     </CardText>
                 </Card>
