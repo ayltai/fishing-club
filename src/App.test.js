@@ -2,15 +2,16 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
+import { Router } from 'react-router';
+import createBrowserHistory from 'history/createBrowserHistory';
 import App from './App';
 
 it('renders correctly', () => {
     const div = document.createElement('div');
     ReactDOM.render(
-        <BrowserRouter>
+        <Router history={createBrowserHistory()}>
             <App />
-        </BrowserRouter>,
+        </Router>,
         div);
 
     expect(div.innerHTML).toMatchSnapshot();
