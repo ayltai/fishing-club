@@ -39,6 +39,13 @@ class Fishing extends React.Component {
                     </CardText>
                 </Card>
                 <Card className="fishingItem">
+                    <CardTitle title="Best time to fish" />
+                    <CardText>
+                        <p>Each day, there are times that fish eat and don't eat. When they don't eat, they will just ignore your baits. The times depend on the tide cycle. When the tide reaches the highest or lowest level, they don't eat. They eat when the rate of change of tide level is maximized. This is because when the tide level change rate is large, a lot of micro-organism floats from the bottom of the sea. They become the food of small fish, which in turn become the food of big fish. Almost everything in the sea becomes active during this period. This is the best time to fish.</p>
+                        <p>In every month, there is only a few days that are the best time to fish. Our planned day is one of these. Check out <a href="http://www.hko.gov.hk/tide/predtide.htm" title="Hong Kong Observatory">Hong Kong Observatory</a> for tide level predictions.</p>
+                    </CardText>
+                </Card>
+                <Card className="fishingItem">
                     <CardTitle title="Kinds of fish" />
                     <CardText>
                         <p>The kinds of fish you will find vary depending on the season. In summer, you will always find groups of baby snappers and some small mottled spinefoot.</p>

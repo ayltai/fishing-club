@@ -36,7 +36,6 @@ class YungShueORafts extends React.Component {
                 <Card className="yungShueORaftItem">
                     <CardTitle title="Our raft" />
                     <CardText>
-                        <p></p>
                         <LazyLoad
                             width={768}
                             height={640}>
