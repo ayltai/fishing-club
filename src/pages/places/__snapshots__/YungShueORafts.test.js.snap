@@ -47,22 +47,19 @@ exports[`renders correctly 1`] = `
         </span>
       </div>
       <div style="padding: 16px; font-size: 14px; color: rgba(0, 0, 0, 0.87);">
-        <p>
-        </p>
-        <div style="text-align: center;">
-          <img src="our-raft-1.jpg"
-               style="max-width: 100%;"
-          >
+        <div class="LazyLoad"
+             style="height: 640px; width: 768px;"
+        >
         </div>
-        <div style="text-align: center;">
-          <img src="our-raft-2.jpg"
-               style="max-width: 100%;"
-          >
+        <br>
+        <div class="LazyLoad"
+             style="height: 400px; width: 768px;"
+        >
         </div>
-        <div style="text-align: center;">
-          <img src="our-raft-3.jpg"
-               style="max-width: 100%;"
-          >
+        <br>
+        <div class="LazyLoad"
+             style="height: 400px; width: 768px;"
+        >
         </div>
       </div>
     </div>

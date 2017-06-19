@@ -39,6 +39,38 @@ exports[`renders correctly 1`] = `
     <div style="padding-bottom: 8px;">
       <div style="padding: 16px; position: relative;">
         <span style="font-size: 24px; color: rgba(0, 0, 0, 0.87); display: block; line-height: 36px;">
+          Best time to fish
+        </span>
+        <span style="font-size: 14px; color: rgba(0, 0, 0, 0.54); display: block;">
+        </span>
+      </div>
+      <div style="padding: 16px; font-size: 14px; color: rgba(0, 0, 0, 0.87);">
+        <p>
+          Each day, there are times that fish eat and don't eat. When they don't eat, they will just ignore your baits. The times depend on the tide cycle. When the tide reaches the highest or lowest level, they don't eat. They eat when the rate of change of tide level is maximized. This is because when the tide level change rate is large, a lot of micro-organism floats from the bottom of the sea. They become the food of small fish, which in turn become the food of big fish. Almost everything in the sea becomes active during this period. This is the best time to fish.
+        </p>
+        <p>
+          <!-- react-text: 21 -->
+          In every month, there is only a few days that are the best time to fish. Our planned day is one of these. Check out
+          <!-- /react-text -->
+          <a href="http://www.hko.gov.hk/tide/predtide.htm"
+             title="Hong Kong Observatory"
+          >
+            Hong Kong Observatory
+          </a>
+          <!-- react-text: 23 -->
+          for tide level predictions.
+          <!-- /react-text -->
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="fishingItem"
+       style="color: rgba(0, 0, 0, 0.87); background-color: rgb(255, 255, 255); box-sizing: border-box; font-family: Roboto, sans-serif; box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12),
+         0 1px 4px rgba(0, 0, 0, 0.12); border-radius: 2px; z-index: 1;"
+  >
+    <div style="padding-bottom: 8px;">
+      <div style="padding: 16px; position: relative;">
+        <span style="font-size: 24px; color: rgba(0, 0, 0, 0.87); display: block; line-height: 36px;">
           Kinds of fish
         </span>
         <span style="font-size: 14px; color: rgba(0, 0, 0, 0.54); display: block;">
@@ -56,10 +88,9 @@ exports[`renders correctly 1`] = `
         <p>
           In summer, it is very easy to spot groups of baby snappers swim close to the water surface.
         </p>
-        <div style="text-align: center;">
-          <img src="snapper.jpg"
-               style="max-width: 100%;"
-          >
+        <div class="LazyLoad"
+             style="height: 375px; width: 768px;"
+        >
         </div>
         <br>
         <p>
@@ -74,14 +105,13 @@ exports[`renders correctly 1`] = `
           <strong>
             Caution:
           </strong>
-          <!-- react-text: 31 -->
+          <!-- react-text: 41 -->
           Their fins can emit slight toxic substance. Avoid touching their fins or you may risk getting punctured, which is painful and you will feel paralyzed, immediately, for 30 minutes. But no worries, you won't die because of this ;-)
           <!-- /react-text -->
         </p>
-        <div style="text-align: center;">
-          <img src="mottled-spinefoot.jpg"
-               style="max-width: 100%;"
-          >
+        <div class="LazyLoad"
+             style="height: 400px; width: 768px;"
+        >
         </div>
         <br>
         <p>
@@ -92,10 +122,9 @@ exports[`renders correctly 1`] = `
         <p>
           Groupers are one of the most tasty fish and at the same time, one of the most difficult fish to catch. Usually they appear individually, swim close to the bottom of the sea, sometimes doing nothing and just sit, waiting for the best chance to catch her food. You will only find them if you are lucky or highly skilled.
         </p>
-        <div style="text-align: center;">
-          <img src="grouper.jpg"
-               style="max-width: 100%;"
-          >
+        <div class="LazyLoad"
+             style="height: 444px; width: 768px;"
+        >
         </div>
       </div>
     </div>
@@ -155,10 +184,9 @@ exports[`renders correctly 1`] = `
             </li>
           </ul>
         </p>
-        <div style="text-align: center;">
-          <img src="fishing-tools.jpg"
-               style="max-width: 100%;"
-          >
+        <div class="LazyLoad"
+             style="height: 524px; width: 768px;"
+        >
         </div>
         <br>
         <p>
@@ -192,10 +220,9 @@ exports[`renders correctly 1`] = `
             </li>
           </ul>
         </p>
-        <div style="text-align: center;">
-          <img src="fishing-pole.jpg"
-               style="max-width: 100%;"
-          >
+        <div class="LazyLoad"
+             style="height: 600px; width: 768px;"
+        >
         </div>
       </div>
     </div>
@@ -230,10 +257,9 @@ exports[`renders correctly 1`] = `
         <p>
           We also don't use living shrimps because they are much more expensive, and it requires highly skilled techniques to hook it, or it will die immediately.
         </p>
-        <div style="text-align: center;">
-          <img src="shrimp.jpg"
-               style="max-width: 100%;"
-          >
+        <div class="LazyLoad"
+             style="height: 356px; width: 768px;"
+        >
         </div>
         <br>
         <p>
@@ -264,10 +290,9 @@ exports[`renders correctly 1`] = `
         <p>
           The cheapest bait is fake plastic baits which can be reused as many times as you want. It is only for the most skillful professionals who can let their baits move like a living fish under water. Usually it is used to catch squids and other big fish.
         </p>
-        <div style="text-align: center;">
-          <img src="fake-bait.jpg"
-               style="max-width: 100%;"
-          >
+        <div class="LazyLoad"
+             style="height: 450px; width: 768px;"
+        >
         </div>
       </div>
     </div>

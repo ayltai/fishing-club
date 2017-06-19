@@ -52,15 +52,9 @@ exports[`renders correctly 1`] = `
           University Station / Ma On Shan Park, next to Ma On Shan Plaza
           <!-- /react-text -->
         </p>
-        <div style="text-align: center;">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m0!4v1497710040386!6m8!1m7!1sUnhVj7KuThpP32n-v7Aqyg!2m2!1d22.42587753254536!2d114.2309455589173!3f66.54543307736353!4f14.938532675884844!5f0.7820865974627469"
-                  width="600"
-                  height="450"
-                  frameborder="0"
-                  style="border:0"
-                  allowfullscreen
-          >
-          </iframe>
+        <div class="LazyLoad"
+             style="height: 450px; width: 768px;"
+        >
         </div>
         <p>
           <strong>
@@ -70,15 +64,9 @@ exports[`renders correctly 1`] = `
           Tseng Tau Tsuen (井頭村) Minibus Terminus
           <!-- /react-text -->
         </p>
-        <div style="text-align: center;">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m0!4v1497710372836!6m8!1m7!1s6AYgUM4BRD8kvHozZpjBsg!2m2!1d22.42711954906949!2d114.2686072335166!3f133.38779224475027!4f3.9645947317568186!5f0.7820865974627469"
-                  width="600"
-                  height="450"
-                  frameborder="0"
-                  style="border:0"
-                  allowfullscreen
-          >
-          </iframe>
+        <div class="LazyLoad"
+             style="height: 450px; width: 768px;"
+        >
         </div>
       </div>
     </div>
@@ -115,15 +103,9 @@ exports[`renders correctly 1`] = `
         <p>
           You can take bus route 299X. It takes about 1 hour from New Town Plaza to the drop-off point.
         </p>
-        <div style="text-align: center;">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d29509.27094487426!2d114.22016115525014!3d22.404214077644557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x340407ada8273715%3A0xde0938ac1ae32e74!2sNew+Town+Plaza%2C+18+Sha+Tin+Centre+St%2C+Sha+Tin!3m2!1d22.3814592!2d114.1889307!4m5!1s0x34040f135a9753fd%3A0x7b16803ad7ba2578!2sTseng+Tau+Tsuen%2C+Hong+Kong!3m2!1d22.427825!2d114.269397!5e0!3m2!1sen!2shk!4v1497710991792"
-                  width="600"
-                  height="450"
-                  frameborder="0"
-                  style="border:0"
-                  allowfullscreen
-          >
-          </iframe>
+        <div class="LazyLoad"
+             style="height: 450px; width: 768px;"
+        >
         </div>
         <p>
           <strong>
@@ -133,15 +115,9 @@ exports[`renders correctly 1`] = `
           Tai Tung (大洞)
           <!-- /react-text -->
         </p>
-        <div style="text-align: center;">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m0!4v1497712107758!6m8!1m7!1sncIgVETHXjkyHZZDHuD46w!2m2!1d22.42446573387123!2d114.2632637667211!3f136.3708193242854!4f-2.9868229881180497!5f0.7820865974627469"
-                  width="600"
-                  height="450"
-                  frameborder="0"
-                  style="border:0"
-                  allowfullscreen
-          >
-          </iframe>
+        <div class="LazyLoad"
+             style="height: 450px; width: 768px;"
+        >
         </div>
         <p>
           <strong>
@@ -189,15 +165,9 @@ exports[`renders correctly 1`] = `
         <p>
           Note that you may get into a traffic jam because these routes go via Sai Kung city center. Make sure to check Google Map for real-time traffic information before taking these routes.
         </p>
-        <div style="text-align: center;">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d29508.814602610182!2d114.24559441125844!3d22.406363232863576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x34040597e48e7035%3A0xd35e26f938451819!2sSai+Kung+Bus+Terminus%2C+Sai+Kung!3m2!1d22.382172!2d114.273822!4m5!1s0x34040f135a9753fd%3A0x7b16803ad7ba2578!2sTseng+Tau+Tsuen!3m2!1d22.427825!2d114.269397!5e0!3m2!1sen!2shk!4v1497692618840"
-                  width="600"
-                  height="450"
-                  frameborder="0"
-                  style="border:0"
-                  allowfullscreen
-          >
-          </iframe>
+        <div class="LazyLoad"
+             style="height: 450px; width: 768px;"
+        >
         </div>
         <p>
           <strong>
@@ -207,15 +177,9 @@ exports[`renders correctly 1`] = `
           Tin Liu (田寮)
           <!-- /react-text -->
         </p>
-        <div style="text-align: center;">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m0!4v1497711677078!6m8!1m7!1sUJwlAQe0-iybTxI480yxGQ!2m2!1d22.42470620291166!2d114.2631617875714!3f337.75344486039717!4f-6.514110221753683!5f0.7820865974627469"
-                  width="600"
-                  height="450"
-                  frameborder="0"
-                  style="border:0"
-                  allowfullscreen
-          >
-          </iframe>
+        <div class="LazyLoad"
+             style="height: 450px; width: 768px;"
+        >
         </div>
         <p>
           <strong>

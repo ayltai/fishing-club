@@ -29,10 +29,9 @@ exports[`renders correctly 1`] = `
         <p>
           It is a beach covered entirely by water and only appears when the tide is low. It was a place with no name, and people start to call it "Star beach" because the water there is so clear that many starfishes live in there.
         </p>
-        <div style="text-align: center;">
-          <img src="starfish.jpg"
-               style="max-width: 100%;"
-          >
+        <div class="LazyLoad"
+             style="height: 450px; width: 768px;"
+        >
         </div>
         <p>
           Sadly, due to heavy pollutions, we can no longer find that many starfishes there as shown in the above image. But still, we will find some, and you can even put it in your hands to feel when it crawls.

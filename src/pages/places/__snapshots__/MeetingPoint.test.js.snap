@@ -59,15 +59,9 @@ exports[`renders correctly 1`] = `
           to learn how you can get there.
           <!-- /react-text -->
         </p>
-        <div style="text-align: center;">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d118076.89549807012!2d114.09542218135105!3d22.357291765113327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34040f135a9753fd%3A0x7b16803ad7ba2578!2sTseng+Tau+Tsuen!5e0!3m2!1sen!2shk!4v1497718219869"
-                  width="600"
-                  height="450"
-                  frameborder="0"
-                  style="border:0"
-                  allowfullscreen
-          >
-          </iframe>
+        <div class="LazyLoad"
+             style="height: 450px; width: 768px;"
+        >
         </div>
         <p>
           There are 3 piers near Tseng Tau Tsuen. We will walk 10 minutes to the farthest one, Kei Ling Ha Hoi Pier (企嶺下海碼頭), aka Sam Pui Chau Pier (三杯酒碼頭).
@@ -107,15 +101,9 @@ exports[`renders correctly 1`] = `
         <p>
           We will walk from the minibus terminus to the pier. Part of the road is covered by trees.
         </p>
-        <div style="text-align: center;">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m0!4v1497720781547!6m8!1m7!1sF%3A-fdAcu4b9pSo%2FVWPjmljUzqI%2FAAAAAAABNu8%2FuVblQhFXCA8dJteEehAfsukFs8jXNOuWwCJkC!2m2!1d22.4317466!2d114.2694121!3f215.51966352377502!4f18.855990498735693!5f0.7820865974627469"
-                  width="600"
-                  height="450"
-                  frameborder="0"
-                  style="border:0"
-                  allowfullscreen
-          >
-          </iframe>
+        <div class="LazyLoad"
+             style="height: 450px; width: 768px;"
+        >
         </div>
         <p>
           We will take the boat provided by the raft owner. In a few minutes, we will arrive at the raft.
@@ -144,7 +132,7 @@ exports[`renders correctly 1`] = `
               12:15 PM
             </strong>
             <!-- react-text: 51 -->
-            Yung Shue O Raft (榕樹澳漁排)
+            Yung Shue O Rafts (榕樹澳漁排)
             <!-- /react-text -->
           </div>
         </span>
@@ -155,15 +143,9 @@ exports[`renders correctly 1`] = `
         <p>
           There are over 100 rafts and we will spend our day on one of these.
         </p>
-        <div style="text-align: center;">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m0!4v1497721548633!6m8!1m7!1sF%3A-VrMR0TfFtys%2FVgFlCaK9KWI%2FAAAAAAAAfXM%2FlgIkW-sv43ovS31ljaaIgvCJ37JFTIxQgCLIB!2m2!1d22.4219482!2d114.2769164!3f16.208133242012664!4f1.518324652762871!5f0.7820865974627469"
-                  width="600"
-                  height="450"
-                  frameborder="0"
-                  style="border:0"
-                  allowfullscreen
-          >
-          </iframe>
+        <div class="LazyLoad"
+             style="height: 450px; width: 768px;"
+        >
         </div>
       </div>
     </div>
@@ -189,7 +171,7 @@ exports[`renders correctly 1`] = `
               Evening
             </strong>
             <!-- react-text: 66 -->
-            Yung Shue O Raft (榕樹澳漁排)
+            Yung Shue O Rafts (榕樹澳漁排)
             <!-- /react-text -->
           </div>
         </span>

@@ -44,22 +44,6 @@ exports[`renders correctly 1`] = `
         <p>
           Hope you will enjoy the activity.
         </p>
-        <br>
-        <p>
-          <small>
-            <!-- react-text: 21 -->
-            The source code of this website is hosted on
-            <!-- /react-text -->
-            <a href="https://github.com/ayltai/fishing-club"
-               title="GitHub"
-            >
-              GitHub
-            </a>
-            <!-- react-text: 23 -->
-            .
-            <!-- /react-text -->
-          </small>
-        </p>
       </div>
     </div>
   </div>
