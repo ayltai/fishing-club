@@ -5,6 +5,7 @@ import React from 'react';
 import muiThemeable from 'material-ui/styles/muiThemeable';
 import { Card, CardMedia, CardTitle, CardText } from 'material-ui/Card';
 import LazyLoad from 'react-lazy-load';
+import ReactGA from 'react-ga';
 import './Fishing.css';
 import FakeBaitImage from '../../images/fake-bait.jpg';
 import FishingImage from '../../images/fishing.jpg';
@@ -53,7 +54,12 @@ class Fishing extends React.Component {
                         <p>In summer, it is very easy to spot groups of baby snappers swim close to the water surface.</p>
                         <LazyLoad
                             width={768}
-                            height={375}>
+                            height={375}
+                            onContentVisible={() : void => ReactGA.event({
+                                category : 'Fishing',
+                                action   : 'Display',
+                                label    : 'Snapper'
+                            })}>
                             <div
                                 style={{
                                     textAlign : 'center'
@@ -71,7 +77,12 @@ class Fishing extends React.Component {
                         <p><strong>Caution:</strong> Their fins can emit slight toxic substance. Avoid touching their fins or you may risk getting punctured, which is painful and you will feel paralyzed, immediately, for 30 minutes. But no worries, you won't die because of this ;-)</p>
                         <LazyLoad
                             width={768}
-                            height={400}>
+                            height={400}
+                            onContentVisible={() : void => ReactGA.event({
+                                category : 'Fishing',
+                                action   : 'Display',
+                                label    : 'Mottled spinefoot'
+                            })}>
                             <div
                                 style={{
                                     textAlign : 'center'
@@ -88,7 +99,12 @@ class Fishing extends React.Component {
                         <p>Groupers are one of the most tasty fish and at the same time, one of the most difficult fish to catch. Usually they appear individually, swim close to the bottom of the sea, sometimes doing nothing and just sit, waiting for the best chance to catch her food. You will only find them if you are lucky or highly skilled.</p>
                         <LazyLoad
                             width={768}
-                            height={444}>
+                            height={444}
+                            onContentVisible={() : void => ReactGA.event({
+                                category : 'Fishing',
+                                action   : 'Display',
+                                label    : 'Grouper'
+                            })}>
                             <div
                                 style={{
                                     textAlign : 'center'
@@ -126,7 +142,12 @@ class Fishing extends React.Component {
                         </p>
                         <LazyLoad
                             width={768}
-                            height={524}>
+                            height={524}
+                            onContentVisible={() : void => ReactGA.event({
+                                category : 'Fishing',
+                                action   : 'Display',
+                                label    : 'Basic tools'
+                            })}>
                             <div
                                 style={{
                                     textAlign : 'center'
@@ -156,7 +177,12 @@ class Fishing extends React.Component {
                         </p>
                         <LazyLoad
                             width={768}
-                            height={600}>
+                            height={600}
+                            onContentVisible={() : void => ReactGA.event({
+                                category : 'Fishing',
+                                action   : 'Display',
+                                label    : 'Fishing pole'
+                            })}>
                             <div
                                 style={{
                                     textAlign : 'center'
@@ -180,7 +206,12 @@ class Fishing extends React.Component {
                         <p>We also don't use living shrimps because they are much more expensive, and it requires highly skilled techniques to hook it, or it will die immediately.</p>
                         <LazyLoad
                             width={768}
-                            height={356}>
+                            height={356}
+                            onContentVisible={() : void => ReactGA.event({
+                                category : 'Fishing',
+                                action   : 'Display',
+                                label    : 'Shrimps'
+                            })}>
                             <div
                                 style={{
                                     textAlign : 'center'
@@ -203,7 +234,12 @@ class Fishing extends React.Component {
                         <p>The cheapest bait is fake plastic baits which can be reused as many times as you want. It is only for the most skillful professionals who can let their baits move like a living fish under water. Usually it is used to catch squids and other big fish.</p>
                         <LazyLoad
                             width={768}
-                            height={450}>
+                            height={450}
+                            onContentVisible={() : void => ReactGA.event({
+                                category : 'Fishing',
+                                action   : 'Display',
+                                label    : 'Fake baits'
+                            })}>
                             <div
                                 style={{
                                     textAlign : 'center'

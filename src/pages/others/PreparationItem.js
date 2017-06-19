@@ -6,11 +6,19 @@ import PropTypes from 'prop-types';
 import muiThemeable from 'material-ui/styles/muiThemeable';
 import Checkbox from 'material-ui/Checkbox';
 import { ListItem } from 'material-ui/List';
+import ReactGA from 'react-ga';
 
 const PreparationItem = (props : Object) => {
     return (
         <ListItem
-            leftCheckbox={<Checkbox />}
+            leftCheckbox={
+                <Checkbox
+                    onCheck={(event : object, isChecked : boolean) : void => ReactGA.event({
+                        category : 'Preparations',
+                        action   : isChecked ? 'Check' : 'Uncheck',
+                        label    : props.name
+                    })} />
+            }
             primaryText={props.name}
             secondaryText={props.description}
             secondaryTextLines={2} />

@@ -5,6 +5,7 @@ import React from 'react';
 import muiThemeable from 'material-ui/styles/muiThemeable';
 import { Card, CardTitle, CardText } from 'material-ui/Card';
 import LazyLoad from 'react-lazy-load';
+import ReactGA from 'react-ga';
 import './GettingThere.css';
 
 class GettingThere extends React.Component {
@@ -24,7 +25,12 @@ class GettingThere extends React.Component {
                         <p><strong>Pick-up point:</strong> University Station / Ma On Shan Park, next to Ma On Shan Plaza</p>
                         <LazyLoad
                             width={768}
-                            height={450}>
+                            height={450}
+                            onContentVisible={() : void => ReactGA.event({
+                                category : 'Getting There',
+                                action   : 'Display',
+                                label    : 'Google Map (Minibus route 807K)'
+                            })}>
                             <div
                                 style={{
                                     textAlign : 'center'
@@ -38,7 +44,12 @@ class GettingThere extends React.Component {
                         <p><strong>Drop-off point:</strong> Tseng Tau Tsuen (井頭村) Minibus Terminus</p>
                         <LazyLoad
                             width={768}
-                            height={450}>
+                            height={450}
+                            onContentVisible={() : void => ReactGA.event({
+                                category : 'Getting There',
+                                action   : 'Display',
+                                label    : 'Google Map (Tseng Tau Tsuen Minibus Terminus)'
+                            })}>
                             <div
                                 style={{
                                     textAlign : 'center'
@@ -60,7 +71,12 @@ class GettingThere extends React.Component {
                         <p>You can take bus route 299X. It takes about 1 hour from New Town Plaza to the drop-off point.</p>
                         <LazyLoad
                             width={768}
-                            height={450}>
+                            height={450}
+                            onContentVisible={() : void => ReactGA.event({
+                                category : 'Getting There',
+                                action   : 'Display',
+                                label    : 'Google Map (Bus routes 299X)'
+                            })}>
                             <div
                                 style={{
                                     textAlign : 'center'
@@ -74,7 +90,12 @@ class GettingThere extends React.Component {
                         <p><strong>Drop-off point:</strong> Tai Tung (大洞)</p>
                         <LazyLoad
                             width={768}
-                            height={450}>
+                            height={450}
+                            onContentVisible={() : void => ReactGA.event({
+                                category : 'Getting There',
+                                action   : 'Display',
+                                label    : 'Google Map (Tai Tung)'
+                            })}>
                             <div
                                 style={{
                                     textAlign : 'center'
@@ -98,7 +119,12 @@ class GettingThere extends React.Component {
                         <p>Note that you may get into a traffic jam because these routes go via Sai Kung city center. Make sure to check Google Map for real-time traffic information before taking these routes.</p>
                         <LazyLoad
                             width={768}
-                            height={450}>
+                            height={450}
+                            onContentVisible={() : void => ReactGA.event({
+                                category : 'Getting There',
+                                action   : 'Display',
+                                label    : 'Google Map (Bus routes 299X / 99)'
+                            })}>
                             <div
                                 style={{
                                     textAlign : 'center'
@@ -112,7 +138,12 @@ class GettingThere extends React.Component {
                         <p><strong>Drop-off point:</strong> Tin Liu (田寮)</p>
                         <LazyLoad
                             width={768}
-                            height={450}>
+                            height={450}
+                            onContentVisible={() : void => ReactGA.event({
+                                category : 'Getting There',
+                                action   : 'Display',
+                                label    : 'Google Map (Tin Liu)'
+                            })}>
                             <div
                                 style={{
                                     textAlign : 'center'

@@ -5,6 +5,7 @@ import React from 'react';
 import muiThemeable from 'material-ui/styles/muiThemeable';
 import { Card, CardMedia, CardTitle, CardText } from 'material-ui/Card';
 import LazyLoad from 'react-lazy-load';
+import ReactGA from 'react-ga';
 import './StarBeach.css';
 import StarBeachImage from '../../images/star-beach.jpg';
 import StarfishImage from '../../images/starfish.jpg';
@@ -32,7 +33,12 @@ class StarBeach extends React.Component {
                         <p>It is a beach covered entirely by water and only appears when the tide is low. It was a place with no name, and people start to call it "Star beach" because the water there is so clear that many starfishes live in there.</p>
                         <LazyLoad
                             width={768}
-                            height={450}>
+                            height={450}
+                            onContentVisible={() : void => ReactGA.event({
+                                category : 'Star Beach',
+                                action   : 'Display',
+                                label    : 'Starfish'
+                            })}>
                             <div
                                 style={{
                                     textAlign : 'center'

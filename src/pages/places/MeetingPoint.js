@@ -5,6 +5,7 @@ import React from 'react';
 import muiThemeable from 'material-ui/styles/muiThemeable';
 import { Card, CardMedia, CardTitle, CardText } from 'material-ui/Card';
 import LazyLoad from 'react-lazy-load';
+import ReactGA from 'react-ga';
 import './MeetingPoint.css';
 import RaftEveningImage from '../../images/raft-evening.jpg';
 import SamPuiChauPierImage from '../../images/sam-pui-chau-pier.jpg';
@@ -33,7 +34,12 @@ class MeetingPoint extends React.Component {
                         <p>It should not be too difficult to walk to there even if you take other routes. Click <a href="/places/getting-there" title="Getting there">here</a> to learn how you can get there.</p>
                         <LazyLoad
                             width={768}
-                            height={450}>
+                            height={450}
+                            onContentVisible={() : void => ReactGA.event({
+                                category : 'Meeting Point',
+                                action   : 'Display',
+                                label    : 'Google Map (Tseng Tau Tsuen Minibus Terminus)'
+                            })}>
                             <div
                                 style={{
                                     textAlign : 'center'
@@ -60,7 +66,12 @@ class MeetingPoint extends React.Component {
                         <p>We will walk from the minibus terminus to the pier. Part of the road is covered by trees.</p>
                         <LazyLoad
                             width={768}
-                            height={450}>
+                            height={450}
+                            onContentVisible={() : void => ReactGA.event({
+                                category : 'Meeting Point',
+                                action   : 'Display',
+                                label    : 'Google Map (Sam Pui Chau Pier)'
+                            })}>
                             <div
                                 style={{
                                     textAlign : 'center'
@@ -82,12 +93,17 @@ class MeetingPoint extends React.Component {
                                 maxWidth : '100%'
                             }} />
                     </CardMedia>
-                    <CardTitle title={<div><strong>12:15 PM</strong> Yung Shue O Raft (榕樹澳漁排)</div>} />
+                    <CardTitle title={<div><strong>12:15 PM</strong> Yung Shue O Rafts (榕樹澳漁排)</div>} />
                     <CardText>
                         <p>There are over 100 rafts and we will spend our day on one of these.</p>
                         <LazyLoad
                             width={768}
-                            height={450}>
+                            height={450}
+                            onContentVisible={() : void => ReactGA.event({
+                                category : 'Meeting Point',
+                                action   : 'Display',
+                                label    : 'Google Map (Yung Shue O Rafts)'
+                            })}>
                             <div
                                 style={{
                                     textAlign : 'center'
@@ -108,7 +124,7 @@ class MeetingPoint extends React.Component {
                                 maxWidth : '100%'
                             }} />
                     </CardMedia>
-                    <CardTitle title={<div><strong>Evening</strong> Yung Shue O Raft (榕樹澳漁排)</div>} />
+                    <CardTitle title={<div><strong>Evening</strong> Yung Shue O Rafts (榕樹澳漁排)</div>} />
                     <CardText>
                         <p>We will again take the boat provided by the raft owner to go back to the pier, and walk the way back to the minibus terminus.</p>
                         <p>We will dismiss at the minibus terminus. Some of us will take minibus route 807K, some may walk to the bus station, and some may take a taxi.</p>

@@ -3,7 +3,7 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Route } from 'react-router-dom';
+import { Route } from 'react-router';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import { blue500 } from 'material-ui/styles/colors';
@@ -84,7 +84,7 @@ export default class App extends React.Component {
 
         this._navItems  = createNavItems();
         this._appDrawer = createAppDrawerStore(this._navItems);
-        this._appDrawer.selectionChanges.subscribe((selected : string) => this.context.router.history.push(selected));
+        this._appDrawer.selectionChanges.subscribe((selected : string) : void => this.context.router.history.push(selected));
     }
 
     render() : any {
@@ -120,6 +120,7 @@ export default class App extends React.Component {
                                     component={() : any => item.page} />
                             );
                         })}
+                        <div className="footer">Copyright &copy; 2017</div>
                     </div>
                 </div>
             </MuiThemeProvider>

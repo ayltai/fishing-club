@@ -5,6 +5,7 @@ import React from 'react';
 import muiThemeable from 'material-ui/styles/muiThemeable';
 import { Card, CardMedia, CardTitle, CardText } from 'material-ui/Card';
 import LazyLoad from 'react-lazy-load';
+import ReactGA from 'react-ga';
 import './YungShueORafts.css';
 import OurRaft1Image from '../../images/our-raft-1.jpg';
 import OurRaft2Image from '../../images/our-raft-2.jpg';
@@ -38,7 +39,12 @@ class YungShueORafts extends React.Component {
                     <CardText>
                         <LazyLoad
                             width={768}
-                            height={640}>
+                            height={640}
+                            onContentVisible={() : void => ReactGA.event({
+                                category : 'Yung Shue O Rafts',
+                                action   : 'Display',
+                                label    : 'our-raft-1'
+                            })}>
                             <div
                                 style={{
                                     textAlign : 'center'
@@ -53,7 +59,12 @@ class YungShueORafts extends React.Component {
                         <br />
                         <LazyLoad
                             width={768}
-                            height={400}>
+                            height={400}
+                            onContentVisible={() : void => ReactGA.event({
+                                category : 'Yung Shue O Rafts',
+                                action   : 'Display',
+                                label    : 'our-raft-2'
+                            })}>
                             <div
                                 style={{
                                     textAlign : 'center'
@@ -68,7 +79,12 @@ class YungShueORafts extends React.Component {
                         <br />
                         <LazyLoad
                             width={768}
-                            height={400}>
+                            height={400}
+                            onContentVisible={() : void => ReactGA.event({
+                                category : 'Yung Shue O Rafts',
+                                action   : 'Display',
+                                label    : 'our-raft-3'
+                            })}>
                             <div
                                 style={{
                                     textAlign : 'center'
