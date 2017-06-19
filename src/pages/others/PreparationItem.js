@@ -13,7 +13,7 @@ const PreparationItem = (props : Object) => {
         <ListItem
             leftCheckbox={
                 <Checkbox
-                    onCheck={(event : object, isChecked : boolean) : void => ReactGA.event({
+                    onCheck={(event : Object, isChecked : boolean) : void => ReactGA.event({
                         category : 'Preparations',
                         action   : isChecked ? 'Check' : 'Uncheck',
                         label    : props.name
