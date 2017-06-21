@@ -41,12 +41,37 @@ exports[`renders correctly 1`] = `
     <div style="padding-bottom: 8px;">
       <div style="padding: 16px; position: relative;">
         <span style="font-size: 24px; color: rgba(0, 0, 0, 0.87); display: block; line-height: 36px;">
-          Our raft
+          The event
         </span>
         <span style="font-size: 14px; color: rgba(0, 0, 0, 0.54); display: block;">
         </span>
       </div>
       <div style="padding: 16px; font-size: 14px; color: rgba(0, 0, 0, 0.87);">
+        <p>
+          <!-- react-text: 21 -->
+          The event will be held on
+          <!-- /react-text -->
+          <strong>
+            July 9, 2019 (Sunday)
+          </strong>
+          <!-- react-text: 23 -->
+          , from noon till evening.
+          <!-- /react-text -->
+        </p>
+        <p>
+          <!-- react-text: 25 -->
+          Reserve your day by importing this iCalendar appointment file to your device:
+          <!-- /react-text -->
+          <br>
+          <span style="font-size: xx-large;">
+            <a href="YungShueORafts.ics"
+               title="iCalendar appointment"
+            >
+              <i class="icofont icofont-ui-calendar">
+              </i>
+            </a>
+          </span>
+        </p>
         <div class="LazyLoad"
              style="height: 640px; width: 768px;"
         >
