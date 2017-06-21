@@ -11,6 +11,7 @@ import OurRaft1Image from '../../images/our-raft-1.jpg';
 import OurRaft2Image from '../../images/our-raft-2.jpg';
 import OurRaft3Image from '../../images/our-raft-3.jpg';
 import RaftFloatingImage from '../../images/raft-floating.jpg';
+import YungShueORaftsIcs from '../../ics/YungShueORafts.ics';
 
 class YungShueORafts extends React.Component {
     componentDidMount() : void {
@@ -35,8 +36,18 @@ class YungShueORafts extends React.Component {
                     </CardText>
                 </Card>
                 <Card className="yungShueORaftItem">
-                    <CardTitle title="Our raft" />
+                    <CardTitle title="The event" />
                     <CardText>
+                        <p>The event will be held on <strong>July 9, 2019 (Sunday)</strong>, from noon till evening.</p>
+                        <p>
+                            Reserve your day by importing this iCalendar appointment file to your device:<br />
+                            <span
+                                style={{
+                                    fontSize : 'xx-large'
+                                }}>
+                                <a href={YungShueORaftsIcs} title="iCalendar appointment"><i className="icofont icofont-ui-calendar"></i></a>
+                            </span>
+                        </p>
                         <LazyLoad
                             width={768}
                             height={640}
