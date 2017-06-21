@@ -301,6 +301,7 @@ module.exports = {
             // https://github.com/facebookincubator/create-react-app/issues/2235
             stripPrefix                   : paths.appBuild.replace(/\\/g, '/') + '/'
         }),
+        new webpack.optimize.AggressiveMergingPlugin(),
         // Moment.js is an extremely popular library that bundles large locale files
         // by default due to how Webpack interprets its code. This is a practical
         // solution that requires the user to opt into importing specific locales.

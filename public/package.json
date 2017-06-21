@@ -18,7 +18,8 @@
         "fishing"
     ],
     "dependencies" : {
-        "express" : "^4.15.3"
+        "compression" : "^1.6.2",
+        "express"     : "^4.15.3"
     },
     "scripts"      : {
         "start" : "node ./start.js"

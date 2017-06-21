@@ -1,8 +1,10 @@
 'use strict';
 
-const express = require('express');
-const app     = express();
+const express     = require('express');
+const compression = require('compression');
+const app         = express();
 
+app.use(compression());
 app.use(express.static('.'));
 
 const PREDEFINED_PORT = 80;
