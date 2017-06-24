@@ -26,6 +26,9 @@ class Preparations extends React.Component {
                         name="(Optional) Plastic bags"
                         description="You will need to walk through shallow water when you visit Star beach. Plastic bags come in handy if you take off your shoes." />
                     <PreparationItem
+                        name="(Optional) Towel"
+                        description="To try your feet after visit the beach." />
+                    <PreparationItem
                         name="Cash"
                         description="You can buy more drinks there." />
                     <PreparationItem

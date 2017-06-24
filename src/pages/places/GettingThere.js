@@ -22,6 +22,7 @@ class GettingThere extends React.Component {
                         subtitle="Departs every 7 to 10 minutes" />
                     <CardText>
                         <p>You can take Green Minibus <a href="http://www.16seats.net/eng/gmb/gn_807k.html" title="Minibus route 807K" target="_blank">route 807K</a> at University Station or Ma On Shan. <strong>Make sure not to be confused with minibus routes 807A and 807B.</strong> They are different routes.</p>
+                        <p>Note that sometimes you may not be able to get a seat at the terminus in Ma On Shan.</p>
                         <p><strong>Pick-up point:</strong> University Station / Ma On Shan Park, next to Ma On Shan Plaza</p>
                         <LazyLoad
                             width={768}

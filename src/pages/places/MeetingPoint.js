@@ -61,7 +61,7 @@ class MeetingPoint extends React.Component {
                                 maxWidth : '100%'
                             }} />
                     </CardMedia>
-                    <CardTitle title={<div><strong>12:00 PM</strong> Sam Pui Chau Pier (三杯酒碼頭)</div>} />
+                    <CardTitle title={<div>Sam Pui Chau Pier (三杯酒碼頭)</div>} />
                     <CardText>
                         <p>We will walk from the minibus terminus to the pier. Part of the road is covered by trees.</p>
                         <LazyLoad
@@ -127,7 +127,7 @@ class MeetingPoint extends React.Component {
                     <CardTitle title={<div><strong>Evening</strong> Yung Shue O Rafts (榕樹澳漁排)</div>} />
                     <CardText>
                         <p>We will again take the boat provided by the raft owner to go back to the pier, and walk the way back to the minibus terminus.</p>
-                        <p>We will dismiss at the minibus terminus. Some of us will take minibus route 807K, some may walk to the bus station, and some may take a taxi.</p>
+                        <p>We will dismiss at the minibus terminus. You can take minibus route 807K, walk to the bus station, or by taxi.</p>
                     </CardText>
                 </Card>
             </div>
