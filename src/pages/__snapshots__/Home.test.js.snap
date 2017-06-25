@@ -42,7 +42,7 @@ exports[`renders correctly 1`] = `
           <!-- /react-text -->
         </p>
         <p>
-          Hope you will enjoy the activity.
+          Hope you will enjoy.
         </p>
       </div>
     </div>

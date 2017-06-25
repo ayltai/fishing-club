@@ -45,10 +45,13 @@ exports[`renders correctly 1`] = `
           <!-- /react-text -->
         </p>
         <p>
+          Note that sometimes you may not be able to get a seat at the terminus in Ma On Shan.
+        </p>
+        <p>
           <strong>
             Pick-up point:
           </strong>
-          <!-- react-text: 19 -->
+          <!-- react-text: 20 -->
           University Station / Ma On Shan Park, next to Ma On Shan Plaza
           <!-- /react-text -->
         </p>
@@ -60,7 +63,7 @@ exports[`renders correctly 1`] = `
           <strong>
             Drop-off point:
           </strong>
-          <!-- react-text: 23 -->
+          <!-- react-text: 24 -->
           Tseng Tau Tsuen (井頭村) Minibus Terminus
           <!-- /react-text -->
         </p>
@@ -82,7 +85,7 @@ exports[`renders correctly 1`] = `
             <strong>
               From Shatin
             </strong>
-            <!-- react-text: 31 -->
+            <!-- react-text: 32 -->
             Bus routes 299X
             <!-- /react-text -->
           </div>
@@ -96,7 +99,7 @@ exports[`renders correctly 1`] = `
           <strong>
             Pick-up point:
           </strong>
-          <!-- react-text: 36 -->
+          <!-- react-text: 37 -->
           Sai Kung Bus Terminus
           <!-- /react-text -->
         </p>
@@ -111,7 +114,7 @@ exports[`renders correctly 1`] = `
           <strong>
             Drop-off point:
           </strong>
-          <!-- react-text: 41 -->
+          <!-- react-text: 42 -->
           Tai Tung (大洞)
           <!-- /react-text -->
         </p>
@@ -123,7 +126,7 @@ exports[`renders correctly 1`] = `
           <strong>
             Walk:
           </strong>
-          <!-- react-text: 45 -->
+          <!-- react-text: 46 -->
           About 15 minutes, 1.0 km
           <!-- /react-text -->
         </p>
@@ -141,7 +144,7 @@ exports[`renders correctly 1`] = `
             <strong>
               From Sai Kung
             </strong>
-            <!-- react-text: 52 -->
+            <!-- react-text: 53 -->
             Bus routes 299X / 99
             <!-- /react-text -->
           </div>
@@ -155,7 +158,7 @@ exports[`renders correctly 1`] = `
           <strong>
             Pick-up point:
           </strong>
-          <!-- react-text: 57 -->
+          <!-- react-text: 58 -->
           Sai Kung Bus Terminus
           <!-- /react-text -->
         </p>
@@ -173,7 +176,7 @@ exports[`renders correctly 1`] = `
           <strong>
             Drop-off point:
           </strong>
-          <!-- react-text: 63 -->
+          <!-- react-text: 64 -->
           Tin Liu (田寮)
           <!-- /react-text -->
         </p>
@@ -185,7 +188,7 @@ exports[`renders correctly 1`] = `
           <strong>
             Walk:
           </strong>
-          <!-- react-text: 67 -->
+          <!-- react-text: 68 -->
           About 15 minutes, 1.0 km
           <!-- /react-text -->
         </p>
@@ -210,7 +213,7 @@ exports[`renders correctly 1`] = `
           You can take GoGoVan and share the fare between 2 to 4 passengers. It is a little cheaper than taxi. Tell the driver the drop-off point is Tseng Tau Tsuen (井頭村) Minibus Terminus, Sai Kung. Most drivers know where it is and they will choose the fastest route for you.
         </p>
         <p>
-          <!-- react-text: 76 -->
+          <!-- react-text: 77 -->
           Check out their
           <!-- /react-text -->
           <a href="https://itunes.apple.com/hk/app/gogovan/id708390467"
@@ -218,7 +221,7 @@ exports[`renders correctly 1`] = `
           >
             iOS
           </a>
-          <!-- react-text: 78 -->
+          <!-- react-text: 79 -->
           or
           <!-- /react-text -->
           <a href="https://play.google.com/store/apps/details?id=hk.gogovan.GoGoVanClient2"
@@ -226,7 +229,7 @@ exports[`renders correctly 1`] = `
           >
             Android
           </a>
-          <!-- react-text: 80 -->
+          <!-- react-text: 81 -->
           app.
           <!-- /react-text -->
         </p>
@@ -252,13 +255,13 @@ exports[`renders correctly 1`] = `
         </span>
       </div>
       <div style="padding: 16px; font-size: 14px; color: rgba(0, 0, 0, 0.87);">
-        <!-- react-text: 89 -->
+        <!-- react-text: 90 -->
         You won't get lost if you take a taxi. Depending on where the taxi pick-up point is, you may want remind the driver
         <!-- /react-text -->
         <strong>
           not
         </strong>
-        <!-- react-text: 91 -->
+        <!-- react-text: 92 -->
         to enter Sai Kung city center because traffic is usually congested on weekends. If feasible, go via Ma On Shan instead.
         <!-- /react-text -->
       </div>

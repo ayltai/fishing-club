@@ -86,12 +86,7 @@ exports[`renders correctly 1`] = `
       <div style="padding: 16px; position: relative;">
         <span style="font-size: 24px; color: rgba(0, 0, 0, 0.87); display: block; line-height: 36px;">
           <div>
-            <strong>
-              12:00 PM
-            </strong>
-            <!-- react-text: 35 -->
             Sam Pui Chau Pier (三杯酒碼頭)
-            <!-- /react-text -->
           </div>
         </span>
         <span style="font-size: 14px; color: rgba(0, 0, 0, 0.54); display: block;">
@@ -122,7 +117,7 @@ exports[`renders correctly 1`] = `
                style="vertical-align: top; max-width: 100%; min-width: 100%; width: 100%;"
           >
         </div>
-        <!-- react-text: 46 -->
+        <!-- react-text: 44 -->
         <!-- /react-text -->
       </div>
       <div style="padding: 16px; position: relative;">
@@ -131,7 +126,7 @@ exports[`renders correctly 1`] = `
             <strong>
               12:15 PM
             </strong>
-            <!-- react-text: 51 -->
+            <!-- react-text: 49 -->
             Yung Shue O Rafts (榕樹澳漁排)
             <!-- /react-text -->
           </div>
@@ -161,7 +156,7 @@ exports[`renders correctly 1`] = `
                style="vertical-align: top; max-width: 100%; min-width: 100%; width: 100%;"
           >
         </div>
-        <!-- react-text: 61 -->
+        <!-- react-text: 59 -->
         <!-- /react-text -->
       </div>
       <div style="padding: 16px; position: relative;">
@@ -170,7 +165,7 @@ exports[`renders correctly 1`] = `
             <strong>
               Evening
             </strong>
-            <!-- react-text: 66 -->
+            <!-- react-text: 64 -->
             Yung Shue O Rafts (榕樹澳漁排)
             <!-- /react-text -->
           </div>
@@ -183,7 +178,7 @@ exports[`renders correctly 1`] = `
           We will again take the boat provided by the raft owner to go back to the pier, and walk the way back to the minibus terminus.
         </p>
         <p>
-          We will dismiss at the minibus terminus. Some of us will take minibus route 807K, some may walk to the bus station, and some may take a taxi.
+          We will dismiss at the minibus terminus. You can take minibus route 807K, walk to the bus station, or by taxi.
         </p>
       </div>
     </div>
