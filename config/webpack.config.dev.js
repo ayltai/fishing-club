@@ -69,8 +69,8 @@ module.exports = {
         chunkFilename                 : 'static/js/[name].chunk.js',
         // This is the URL that app is served from. We use "/" in development.
         publicPath                    : publicPath,
-        // Point sourcemap entries to original disk location
-        devtoolModuleFilenameTemplate : info => path.resolve(info.absoluteResourcePath)
+        // Point sourcemap entries to original disk location (format as URL on Windows)
+        devtoolModuleFilenameTemplate : info => path.resolve(info.absoluteResourcePath).replace(/\\/g, '/')
     },
     resolve     : {
         // This allows you to set a fallback for where Webpack should look for modules.
@@ -85,7 +85,9 @@ module.exports = {
         // We also include JSX as a common component filename extension to support
         // some tools, although we do not recommend using it, see:
         // https://github.com/facebookincubator/create-react-app/issues/290
-        extensions : [ '.js', '.json', '.jsx' ],
+        // `web` extension prefixes have been added for better support
+        // for React Native Web.
+        extensions : [ '.web.js', '.js', '.json', '.web.jsx', '.jsx' ],
         alias      : {
 
             // Support React Native Web
