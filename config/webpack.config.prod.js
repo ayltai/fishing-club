@@ -31,9 +31,7 @@ const env = getClientEnvironment(publicUrl);
 
 // Assert this just to be safe.
 // Development builds of React are slow and not intended for production.
-if (env.stringified['process.env'].NODE_ENV !== '"production"') {
-    throw new Error('Production builds must have NODE_ENV=production.');
-}
+if (env.stringified['process.env'].NODE_ENV !== '"production"') throw new Error('Production builds must have NODE_ENV=production.');
 
 // Note: defined here because it will be used more than once.
 const cssFilename = 'static/css/[name].[contenthash:8].css';
@@ -84,9 +82,10 @@ module.exports = {
         // We also include JSX as a common component filename extension to support
         // some tools, although we do not recommend using it, see:
         // https://github.com/facebookincubator/create-react-app/issues/290
-        extensions : [ '.js', '.json', '.jsx' ],
+        // `web` extension prefixes have been added for better support
+        // for React Native Web.
+        extensions : [ '.web.js', '.js', '.json', '.web.jsx', '.jsx' ],
         alias      : {
-
             // Support React Native Web
             // https://www.smashingmagazine.com/2016/08/a-glimpse-into-the-future-with-react-native-for-web/
             'react-native' : 'react-native-web'
@@ -106,7 +105,6 @@ module.exports = {
             // TODO: Disable require.ensure as it's not a standard language feature.
             // We are waiting for https://github.com/facebookincubator/create-react-app/issues/2176.
             // { parser: { requireEnsure: false } },
-
             // First, run the linter.
             // It's important to do this before Babel processes the JS.
             {
@@ -127,7 +125,6 @@ module.exports = {
             // The `exclude` list *must* be updated with every change to loader extensions.
             // When adding a new loader, you must add its `test`
             // as a new entry in the `exclude` list in the "file" loader.
-
             // "file" loader makes sure those assets end up in the `build` folder.
             // When you `import` an asset, you get its filename.
             {
@@ -160,8 +157,10 @@ module.exports = {
             {
                 test    : /\.(js|jsx)$/,
                 include : paths.appSrc,
-                loader  : require.resolve('babel-loader')
-
+                loader  : require.resolve('babel-loader'),
+                options : {
+                    compact : true
+                }
             },
             // The notation here is somewhat confusing.
             // "postcss" loader applies autoprefixer to our CSS.
@@ -193,7 +192,9 @@ module.exports = {
                                 {
                                     loader  : require.resolve('postcss-loader'),
                                     options : {
-                                        ident   : 'postcss', // https://webpack.js.org/guides/migrating/#complex-options
+                                        // Necessary for external CSS imports to work
+                                        // https://github.com/facebookincubator/create-react-app/issues/2677
+                                        ident   : 'postcss',
                                         plugins : () => [
                                             require('postcss-flexbugs-fixes'),
                                             autoprefixer({
@@ -259,7 +260,10 @@ module.exports = {
                 comparisons : false
             },
             output    : {
-                comments : false
+                comments   : false,
+                // Turned on because emoji and regex is not minified properly using default
+                // https://github.com/facebookincubator/create-react-app/issues/2488
+                ascii_only : true
             },
             sourceMap : true
         }),
@@ -287,7 +291,14 @@ module.exports = {
                     // This message occurs for every build and is a bit too noisy.
                     return;
                 }
-                console.log(message);
+
+                if (message.indexOf('Skipping static resource') === 0) {
+                    // This message obscures real errors so we ignore it.
+                    // https://github.com/facebookincubator/create-react-app/issues/2612
+                    return;
+                }
+
+                console.info(message);
             },
             minify                        : true,
             // For unknown URLs, fallback to the index page
@@ -296,10 +307,7 @@ module.exports = {
             // https://github.com/facebookincubator/create-react-app/issues/2237#issuecomment-302693219
             navigateFallbackWhitelist     : [ /^(?!\/__).*/ ],
             // Don't precache sourcemaps (they're large) and build asset manifest:
-            staticFileGlobsIgnorePatterns : [ /\.map$/, /asset-manifest\.json$/ ],
-            // Work around Windows path issue in SWPrecacheWebpackPlugin:
-            // https://github.com/facebookincubator/create-react-app/issues/2235
-            stripPrefix                   : paths.appBuild.replace(/\\/g, '/') + '/'
+            staticFileGlobsIgnorePatterns : [ /\.map$/, /asset-manifest\.json$/ ]
         }),
         new webpack.optimize.AggressiveMergingPlugin(),
         // Moment.js is an extremely popular library that bundles large locale files
@@ -312,8 +320,9 @@ module.exports = {
     // Some libraries import Node modules but don't use them in the browser.
     // Tell Webpack to provide empty mocks for them so importing them works.
     node    : {
-        fs  : 'empty',
-        net : 'empty',
-        tls : 'empty'
+        dgram : 'empty',
+        fs    : 'empty',
+        net   : 'empty',
+        tls   : 'empty'
     }
 };
